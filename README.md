@@ -7,4 +7,4 @@ Notes
 2. Has many different non-default highlight groups. This suits me. 
 3. Intended for True Color for the time being. 256 colors will come later.
 
-![Screenshot](https://imgur.com/a/zQ9Bgt4)
+[Screenshot](https://i.imgur.com/sIAHa1J.png)
