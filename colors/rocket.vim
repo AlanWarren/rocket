@@ -78,9 +78,9 @@ hi fzf2         gui=none   guifg=#9262c2 guibg=#332d36
 hi fzf3         gui=none   guifg=#9262c2 guibg=#332d36
 
 " sign column diagnositics
-hi ErrorSign    gui=none   guifg=#5a4684 guibg=none
-hi WarningSign       gui=none   guifg=#8b6a48 guibg=none
-hi InfoSign       gui=none   guifg=#4b464d guibg=none
+hi ErrorSign    gui=none   guifg=#5a4684 guibg=#161517
+hi WarningSign       gui=none   guifg=#8b6a48 guibg=#161517
+hi InfoSign       gui=none   guifg=#4b464d guibg=#161517
 " tabs (non gui)
 hi   TabLine        gui=none       guifg=#4b464d  guibg=#2c292d cterm=none
 hi   TabLineFill    gui=none       guifg=#2c292d  guibg=#2c292d
