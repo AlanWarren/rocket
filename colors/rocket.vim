@@ -79,8 +79,9 @@ hi fzf3         gui=none   guifg=#9262c2 guibg=#332d36
 
 " sign column diagnositics
 hi ErrorSign    gui=none   guifg=#5a4684 guibg=#161517
-hi WarningSign       gui=none   guifg=#8b6a48 guibg=#161517
+hi WarningSign       gui=none   guifg=#c5b4ce guibg=#161517
 hi InfoSign       gui=none   guifg=#4b464d guibg=#161517
+
 " tabs (non gui)
 hi   TabLine        gui=none       guifg=#4b464d  guibg=#2c292d cterm=none
 hi   TabLineFill    gui=none       guifg=#2c292d  guibg=#2c292d
@@ -441,8 +442,11 @@ hi   link     csXmlTag              Keyword
 hi   link     luaFuncKeyword        Statement
 " CoC 
 hi   link     CocErrorSign          ErrorSign
+hi   link     CocErrorVirtualText   Comment
 hi   link     CocWarningSign        WarningSign
+hi   link     CocWarningVirtualText Comment
 hi   link     CocInfoSign           InfoSign
+hi   link     CocInfoVirtualText    Comment
 hi   link     CocHintSign           Identifier
 hi   link     CocHintFloat          Identifier
 hi   link     CocHighlightText      ColorColumn
