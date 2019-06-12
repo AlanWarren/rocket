@@ -89,7 +89,8 @@ hi   TabLineFill    gui=none       guifg=#2c292d  guibg=#2c292d
 hi   TabLineSel     gui=none       guifg=#b9a0d2  guibg=#2c292d
 
 "    Syntax         highlighting
-hi   Comment        gui=none      guifg=#635c65  guibg=#282529
+" hi   Comment        gui=none      guifg=#635c65  guibg=#282529
+hi   Comment        gui=none      guifg=#635c65  guibg=none
 hi   Todo           gui=italic     guifg=#c5b4ce  guibg=#332d36 cterm=italic
 "hi   Constant       gui=none       guifg=#6e9cbe
 hi  Constant       gui=none      guifg=#8c7cb0
