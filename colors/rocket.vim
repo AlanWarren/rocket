@@ -27,7 +27,7 @@ hi DiffDeleteAlt            gui=none   guifg=#2c292d
 hi DiffAddRev               gui=none   guifg=#a7e0cc
 hi DiffChangeRev            gui=none   guifg=#ddafdf
 
-hi Directory                gui=none   guifg=#dfedff
+hi Directory                gui=none   guifg=#d7d7ff
 
 hi SignColumn               gui=none   guifg=#9c94a3 guibg=#161517
 
@@ -76,6 +76,11 @@ hi ErrorMsg     gui=none   guifg=#9262c2 guibg=#161517
 hi fzf1         gui=none   guifg=#635c65 guibg=#332d36
 hi fzf2         gui=none   guifg=#9262c2 guibg=#332d36
 hi fzf3         gui=none   guifg=#9262c2 guibg=#332d36
+
+" sign column diagnositics
+hi ErrorSign    gui=none   guifg=#5a4684 guibg=none
+hi WarningSign       gui=none   guifg=#8b6a48 guibg=none
+hi InfoSign       gui=none   guifg=#4b464d guibg=none
 " tabs (non gui)
 hi   TabLine        gui=none       guifg=#4b464d  guibg=#2c292d cterm=none
 hi   TabLineFill    gui=none       guifg=#2c292d  guibg=#2c292d
@@ -167,12 +172,12 @@ hi   link     CursorIM              Cursor
 hi   link     VisualNOS             Visual
 
 "    NERDTree 
-hi   link     NERDTreeOpenable      Method
+hi   link     NERDTreeOpenable      Ignore
 hi   link     NERDTreeClosable      Number
 hi   link     NERDTreeFile          Number
-hi   link     NERDTreeCWD           Union
+hi   link     NERDTreeCWD           Method
 hi   link     NERDTreeExecFile      Number
-hi   link     NERDTreeFlags         GlobalConstant
+hi   link     NERDTreeFlags         StructDef
 " hi   link     nerdtreeFileExtensionIcon_js   Keyword
 " hi   link     nerdtreeFileExtensionIcon_css  Class
 "    Errors / Linting
@@ -435,9 +440,9 @@ hi   link     pythonBuiltinFunc     Method
 hi   link     csXmlTag              Keyword
 hi   link     luaFuncKeyword        Statement
 " CoC 
-hi   link     CocErrorSign          Error
-hi   link     CocWarningSign        WarningMsg
-hi   link     CocInfoSign           SignColumn
+hi   link     CocErrorSign          ErrorSign
+hi   link     CocWarningSign        WarningSign
+hi   link     CocInfoSign           InfoSign
 hi   link     CocHintSign           Identifier
 hi   link     CocHintFloat          Identifier
 hi   link     CocHighlightText      ColorColumn
