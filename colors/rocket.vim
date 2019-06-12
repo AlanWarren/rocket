@@ -32,9 +32,8 @@ hi Directory                gui=none   guifg=#d7d7ff
 hi SignColumn               gui=none   guifg=#9c94a3 guibg=#161517
 
 " Git Gutter
-hi GitGutterAdd             gui=none   guifg=#381E30 guibg=#161517
-" hi GitGutterChange          gui=none   guifg=#582F4B guibg=#161517
-hi GitGutterChange          gui=none   guifg=#36574d guibg=#161517
+hi GitGutterAdd             gui=none   guifg=#312e33 guibg=#161517
+hi GitGutterChange          gui=none   guifg=#312e33 guibg=#161517
 hi GitGutterDelete          gui=none   guifg=#847d8b guibg=#161517
 hi GitGutterChangeDelete    gui=none   guifg=#504d53 guibg=#161517
 
@@ -79,10 +78,10 @@ hi fzf2         gui=none   guifg=#9262c2 guibg=#332d36
 hi fzf3         gui=none   guifg=#9262c2 guibg=#332d36
 
 " sign column diagnositics
-hi ErrorSign    gui=none   guifg=#80334c guibg=#161517
-hi WarningSign       gui=none   guifg=#835b53 guibg=#161517
+hi ErrorSign    gui=none   guifg=#4d3467 guibg=#161517
+hi WarningSign       gui=none   guifg=#511a3f guibg=#161517
 hi InfoSign       gui=none   guifg=#4b4b79 guibg=#161517
-hi VirtualText    gui=none   guifg=#635c65 guibg=#282529
+hi VirtualText        gui=none     guifg=#4b464d  cterm=none
 
 " tabs (non gui)
 hi   TabLine        gui=none       guifg=#4b464d  guibg=#2c292d cterm=none
@@ -90,8 +89,7 @@ hi   TabLineFill    gui=none       guifg=#2c292d  guibg=#2c292d
 hi   TabLineSel     gui=none       guifg=#b9a0d2  guibg=#2c292d
 
 "    Syntax         highlighting
-" hi   Comment        gui=none      guifg=#635c65  guibg=#282529
-hi   Comment        gui=none     guifg=#4b464d  cterm=none
+hi   Comment        gui=none      guifg=#635c65  guibg=#282529
 hi   Todo           gui=italic     guifg=#c5b4ce  guibg=#332d36 cterm=italic
 "hi   Constant       gui=none       guifg=#6e9cbe
 hi  Constant       gui=none      guifg=#8c7cb0
