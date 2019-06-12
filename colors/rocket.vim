@@ -32,8 +32,8 @@ hi Directory                gui=none   guifg=#dfedff
 hi SignColumn               gui=none   guifg=#9c94a3 guibg=#161517
 
 " Git Gutter
-hi GitGutterAdd             gui=none   guifg=#87d7ff guibg=#161517
-hi GitGutterChange          gui=none   guifg=#6fabf1 guibg=#161517
+hi GitGutterAdd             gui=none   guifg=#a7e0cc guibg=#161517
+hi GitGutterChange          gui=none   guifg=#a7ffcc guibg=#161517
 hi GitGutterDelete          gui=none   guifg=#ff51c7 guibg=#161517
 hi GitGutterChangeDelete    gui=none   guifg=#ca62a2 guibg=#161517
 
