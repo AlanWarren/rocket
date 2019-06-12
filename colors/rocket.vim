@@ -33,7 +33,8 @@ hi SignColumn               gui=none   guifg=#9c94a3 guibg=#161517
 
 " Git Gutter
 hi GitGutterAdd             gui=none   guifg=#381E30 guibg=#161517
-hi GitGutterChange          gui=none   guifg=#582F4B guibg=#161517
+" hi GitGutterChange          gui=none   guifg=#582F4B guibg=#161517
+hi GitGutterChange          gui=none   guifg=#36574d guibg=#161517
 hi GitGutterDelete          gui=none   guifg=#847d8b guibg=#161517
 hi GitGutterChangeDelete    gui=none   guifg=#504d53 guibg=#161517
 
@@ -78,9 +79,10 @@ hi fzf2         gui=none   guifg=#9262c2 guibg=#332d36
 hi fzf3         gui=none   guifg=#9262c2 guibg=#332d36
 
 " sign column diagnositics
-hi ErrorSign    gui=none   guifg=#5a4684 guibg=#161517
-hi WarningSign       gui=none   guifg=#c5b4ce guibg=#161517
-hi InfoSign       gui=none   guifg=#4b464d guibg=#161517
+hi ErrorSign    gui=none   guifg=#80334c guibg=#161517
+hi WarningSign       gui=none   guifg=#835b53 guibg=#161517
+hi InfoSign       gui=none   guifg=#4b4b79 guibg=#161517
+hi VirtualText    gui=none   guifg=#635c65 guibg=#282529
 
 " tabs (non gui)
 hi   TabLine        gui=none       guifg=#4b464d  guibg=#2c292d cterm=none
@@ -442,11 +444,11 @@ hi   link     csXmlTag              Keyword
 hi   link     luaFuncKeyword        Statement
 " CoC 
 hi   link     CocErrorSign          ErrorSign
-hi   link     CocErrorVirtualText   Comment
+hi   link     CocErrorVirtualText   VirtualText
 hi   link     CocWarningSign        WarningSign
-hi   link     CocWarningVirtualText Comment
+hi   link     CocWarningVirtualText VirtualText
 hi   link     CocInfoSign           InfoSign
-hi   link     CocInfoVirtualText    Comment
+hi   link     CocInfoVirtualText    VirtualText
 hi   link     CocHintSign           Identifier
 hi   link     CocHintFloat          Identifier
 hi   link     CocHighlightText      ColorColumn
