@@ -231,8 +231,8 @@ hi   link     CocPumFloatingDetail PmenuSide
 hi   link     CocCodeLens    PmenuSide
 "    Ruby
 "hi   link     RubyStringDemiliter   String
-hi   link     rubyAttribute                 TypeName
-" hi   link     rubyAttribute                 Preproc
+" hi   link     rubyAttribute                 TypeName
+hi   link     rubyAttribute                 Preproc
 hi   link     rubySymbol                    Special
 hi   link     rubyControl                   Statement
 hi   link     rubyBeginEnd                  Keyword
@@ -257,7 +257,7 @@ hi   link     rubyClassVariable             TypeName
 hi   link     rubyClassName                 Class
 hi   link     rubyArrayDelimiter            Operator
 hi   link     rubyBangPredicateMethod       Function3
-hi   link     rubyInstanceVariable          GlobalConstant
+hi   link     rubyInstanceVariable          Member
 hi   link     rubyKeyword                   PreProc
 hi   link     rubyHelper                    PreProc
 " hi   link     rubyAccess                    Statement
