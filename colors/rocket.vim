@@ -110,7 +110,7 @@ hi   Function3      gui=italic     guifg=#ffd7d7
 hi   Type           gui=none       guifg=#ffffff
 hi   Statement      gui=none       guifg=#8b91d1 
 hi   Conditional    gui=none       guifg=#8b91d1
-hi   Keyword        gui=italic       guifg=#79a6ff
+hi   Keyword        gui=none       guifg=#79a6ff
 hi   PreProc        gui=none       guifg=#87d7ff
 hi   Number         gui=none       guifg=#847d8b
 "hi   Special        gui=none       guifg=#b9a0d2
@@ -231,7 +231,8 @@ hi   link     CocPumFloatingDetail PmenuSide
 hi   link     CocCodeLens    PmenuSide
 "    Ruby
 "hi   link     RubyStringDemiliter   String
-hi   link     rubyAttribute                 TypeName
+" hi   link     rubyAttribute                 TypeName
+hi   link     rubyAttribute                 Preproc
 hi   link     rubySymbol                    Special
 hi   link     rubyControl                   Statement
 hi   link     rubyBeginEnd                  Keyword
@@ -254,7 +255,7 @@ hi   link     rubyClassVariable             TypeName
 hi   link     rubyClassName                 Class
 hi   link     rubyArrayDelimiter            Operator
 hi   link     rubyBangPredicateMethod       Function3
-hi   link     rubyInstanceVariable          Keyword
+hi   link     rubyInstanceVariable          GlobalConstant
 hi   link     rubyKeyword                   PreProc
 hi   link     rubyHelper                    PreProc
 " hi   link     rubyAccess                    Statement
