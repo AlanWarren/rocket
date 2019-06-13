@@ -254,11 +254,13 @@ hi   link     rubyClassVariable             TypeName
 hi   link     rubyClassName                 Class
 hi   link     rubyArrayDelimiter            Operator
 hi   link     rubyBangPredicateMethod       Function3
-hi   link     rubyInstanceVariable          Member
+hi   link     rubyInstanceVariable          Keyword
 hi   link     rubyKeyword                   PreProc
 hi   link     rubyHelper                    PreProc
-hi   link     rubyAccess                    Statement
+" hi   link     rubyAccess                    Statement
 hi   link     rubyResponse                  PreProc 
+hi   link     rubyRegexpCharClass           PreProc
+hi   link     rubyPercentStringDelimiter    PreProc
 hi   link     rubyTestAction                Function2
 hi   link     rubyPredefinedConstant        Constant
 hi   link     rubyPredefinedVariable        Class
