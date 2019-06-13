@@ -231,12 +231,13 @@ hi   link     CocPumFloatingDetail PmenuSide
 hi   link     CocCodeLens    PmenuSide
 "    Ruby
 "hi   link     RubyStringDemiliter   String
-" hi   link     rubyAttribute                 TypeName
-hi   link     rubyAttribute                 Preproc
+hi   link     rubyAttribute                 TypeName
+" hi   link     rubyAttribute                 Preproc
 hi   link     rubySymbol                    Special
 hi   link     rubyControl                   Statement
 hi   link     rubyBeginEnd                  Keyword
 hi   link     rubyConst                     Constant
+hi   link     rubyOptionalDoLine            GlobalVariable
 " hi   link     rubyConstant                  Class
 hi   link     rubyDefine                    Statement
 hi   link     rubyMethodBlock               Identifier
@@ -245,6 +246,7 @@ hi   link     rubyClassBlock                Identifier
 hi   link     rubyDoBlock                   Identifier
 hi   link     rubyBracketOperator           Identifier
 hi   link     rubyConditionalExpression     Identifier
+hi   link     rubyRepeatExpression          Identifier
 hi   link     rubyLocalVariableOrMethod     Identifier
 hi   link     rubyInterpolationDelimiter    PreProc
 hi   link     rubyInterpolation             LocalVariable
