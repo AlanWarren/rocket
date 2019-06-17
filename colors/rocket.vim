@@ -36,10 +36,18 @@ hi SignColumn               gui=none   guifg=#9c94a3 guibg=#161517
 " change = 15% opacity of diffAdded
 " delete = 5% of diffRemoved
 " changeDelete = 15% of diffRemoved
-hi GitGutterAdd             gui=none   guifg=#153944 guibg=#161517
-hi GitGutterChange          gui=none   guifg=#155d6e guibg=#161517
-hi GitGutterDelete          gui=none   guifg=#44142f guibg=#161517
-hi GitGutterChangeDelete    gui=none   guifg=#6e144a guibg=#161517
+hi GitGutterAdd             gui=none   guifg=#3f4566 guibg=#161517
+hi GitGutterChange          gui=none   guifg=#555e8a guibg=#161517
+hi GitGutterDelete          gui=none   guifg=#45293c guibg=#161517
+hi GitGutterChangeDelete    gui=none   guifg=#632349 guibg=#161517
+" sign column diagnositics
+hi ErrorSign                gui=none   guifg=#ff00ac guibg=#161517
+hi ErrorVirtual             gui=none   guifg=#45293c guibg=none
+hi WarningSign              gui=none   guifg=#f5e6b6 guibg=#161517
+hi WarningVirtual           gui=none   guifg=#58554b guibg=none
+hi InfoSign                 gui=none   guifg=#87afff guibg=#161517
+hi InfoVirtual              gui=none   guifg=#3c4250 guibg=none
+hi VirtualText              gui=none   guifg=#4b464d cterm=none
 
 hi vimFold      gui=bold   guifg=#847d8b guibg=#1b191c
 hi Folded       gui=italic guifg=#847d8b guibg=#1b191c cterm=italic
@@ -81,15 +89,6 @@ hi fzf1         gui=none   guifg=#635c65 guibg=#332d36
 hi fzf2         gui=none   guifg=#9262c2 guibg=#332d36
 hi fzf3         gui=none   guifg=#9262c2 guibg=#332d36
 
-" sign column diagnositics
-hi ErrorSign            gui=none   guifg=#ff00ac guibg=#161517
-hi ErrorVirtual         gui=none   guifg=#6e144a guibg=none
-hi WarningSign          gui=none   guifg=#f5e6b6 guibg=#161517
-hi WarningVirtual       gui=none   guifg=#585342 guibg=none
-hi InfoSign             gui=none   guifg=#87afff guibg=#161517
-hi InfoVirtual          gui=none   guifg=#323f5c guibg=none
-
-hi VirtualText          gui=none   guifg=#4b464d cterm=none
 
 " tabs (non gui)
 hi   TabLine        gui=none       guifg=#4b464d  guibg=#2c292d cterm=none
