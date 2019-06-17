@@ -82,9 +82,10 @@ hi fzf2         gui=none   guifg=#9262c2 guibg=#332d36
 hi fzf3         gui=none   guifg=#9262c2 guibg=#332d36
 
 " sign column diagnositics
-hi ErrorSign    gui=none   guifg=#4d3467 guibg=#161517
-hi WarningSign       gui=none   guifg=#511a3f guibg=#161517
-hi InfoSign       gui=none   guifg=#4b4b79 guibg=#161517
+hi ErrorSign    gui=none   guifg=#9262c2 guibg=#161517
+hi ErrorSignVirtual    gui=none   guifg=#48315f guibg=none
+hi WarningSign       gui=none   guifg=#6e144a guibg=#161517
+hi InfoSign       gui=none   guifg=#42557e guibg=#161517
 hi VirtualText        gui=none     guifg=#4b464d  cterm=none
 
 " tabs (non gui)
@@ -230,9 +231,6 @@ hi link gitmessengerPopupNormal Pmenu
 " Color of 'end of buffer'. To hide '~' in popup window, set 'None'
 hi gitmessengerEndOfBuffer term=None guifg=None guibg=None ctermfg=None ctermbg=None
 
-hi   link     CocPumFloating PmenuSide
-hi   link     CocPumFloatingDetail PmenuSide
-hi   link     CocCodeLens    PmenuSide
 "    Ruby
 "hi   link     RubyStringDemiliter   String
 " hi   link     rubyAttribute                 TypeName
@@ -451,8 +449,11 @@ hi   link     pythonBuiltinFunc     Method
 hi   link     csXmlTag              Keyword
 hi   link     luaFuncKeyword        Statement
 " CoC 
+hi   link     CocPumFloating        PmenuSide
+hi   link     CocPumFloatingDetail  PmenuSide
+hi   link     CocCodeLens           PmenuSide
 hi   link     CocErrorSign          ErrorSign
-hi   link     CocErrorVirtualText   VirtualText
+hi   link     CocErrorVirtualText   ErrorSignVirtual
 hi   link     CocWarningSign        WarningSign
 hi   link     CocWarningVirtualText VirtualText
 hi   link     CocInfoSign           InfoSign
