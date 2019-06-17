@@ -32,9 +32,9 @@ hi Directory                gui=none   guifg=#d7d7ff
 hi SignColumn               gui=none   guifg=#9c94a3 guibg=#161517
 
 " Git Gutter
-hi GitGutterAdd             gui=none   guifg=#312e33 guibg=#161517
-hi GitGutterChange          gui=none   guifg=#312e33 guibg=#161517
-hi GitGutterDelete          gui=none   guifg=#847d8b guibg=#161517
+hi GitGutterAdd             gui=none   guifg=#00d7ff guibg=#161517
+hi GitGutterChange          gui=none   guifg=#00d7ff guibg=#161517
+hi GitGutterDelete          gui=none   guifg=#ff00ac guibg=#161517
 hi GitGutterChangeDelete    gui=none   guifg=#504d53 guibg=#161517
 
 hi vimFold      gui=bold   guifg=#847d8b guibg=#1b191c
@@ -52,7 +52,7 @@ hi StatusLineNC gui=none   guifg=#7a7480 guibg=#1b191c
 "hi ColorColumn  gui=none                 guibg=#1e1c1f
 hi ColorColumn  gui=none                 guibg=#312e33
 hi ModeMsg      gui=bold   guifg=#92a1ea guibg=#232124
-hi MoreMsg                 guifg=#ff00a7
+hi MoreMsg                 guifg=#ff00ac
 hi Question     gui=none   guifg=#9262c2 guibg=#161517
 hi Visual       gui=none   guibg=#332E33
 hi VisualNOS    gui=bold,underline guifg=#665f69 guibg=#2c292d
@@ -103,7 +103,7 @@ hi   String         gui=none       guifg=#ABD6FF
 "hi   String         gui=none       guifg=#bae8ff
 hi   Identifier     gui=none       guifg=#d7d7ff  cterm=none
 hi   Identifier2    gui=italic     guifg=#d7d7ff  cterm=none
-hi   Function       gui=none       guifg=#ff00a7
+hi   Function       gui=none       guifg=#ff00ac
 hi   Method         gui=none       guifg=#ff72d2
 hi   Function2      gui=none       guifg=#d787d7
 hi   Function3      gui=italic     guifg=#ffd7d7 
