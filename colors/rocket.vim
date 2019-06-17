@@ -31,11 +31,15 @@ hi Directory                gui=none   guifg=#d7d7ff
 
 hi SignColumn               gui=none   guifg=#9c94a3 guibg=#161517
 
-" Git Gutter
-hi GitGutterAdd             gui=none   guifg=#00d7ff guibg=#161517
-hi GitGutterChange          gui=none   guifg=#00d7ff guibg=#161517
-hi GitGutterDelete          gui=none   guifg=#ff00ac guibg=#161517
-hi GitGutterChangeDelete    gui=none   guifg=#504d53 guibg=#161517
+" Git Gutter 
+" add = 5% opacity of diffAdded
+" change = 15% opacity of diffAdded
+" delete = 5% of diffRemoved
+" changeDelete = 15% of diffRemoved
+hi GitGutterAdd             gui=none   guifg=#153944 guibg=#161517
+hi GitGutterChange          gui=none   guifg=#155d6e guibg=#161517
+hi GitGutterDelete          gui=none   guifg=#44142f guibg=#161517
+hi GitGutterChangeDelete    gui=none   guifg=#6e144a guibg=#161517
 
 hi vimFold      gui=bold   guifg=#847d8b guibg=#1b191c
 hi Folded       gui=italic guifg=#847d8b guibg=#1b191c cterm=italic
