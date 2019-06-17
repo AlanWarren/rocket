@@ -82,12 +82,12 @@ hi fzf2         gui=none   guifg=#9262c2 guibg=#332d36
 hi fzf3         gui=none   guifg=#9262c2 guibg=#332d36
 
 " sign column diagnositics
-hi ErrorSign            gui=none   guifg=#9262c2 guibg=#161517
-hi ErrorVirtual         gui=none   guifg=#48315f guibg=none
-hi WarningSign          gui=none   guifg=#ff00ac guibg=#161517
-hi WarningVirtual       gui=none   guifg=#6e144a guibg=none
+hi ErrorSign            gui=none   guifg=#ff00ac guibg=#161517
+hi ErrorVirtual         gui=none   guifg=#6e144a guibg=none
+hi WarningSign          gui=none   guifg=#f5e6b6 guibg=#161517
+hi WarningVirtual       gui=none   guifg=#585342 guibg=none
 hi InfoSign             gui=none   guifg=#87afff guibg=#161517
-hi InfoVirtual          gui=none   guifg=#262f44 guibg=none
+hi InfoVirtual          gui=none   guifg=#323f5c guibg=none
 
 hi VirtualText          gui=none   guifg=#4b464d cterm=none
 
