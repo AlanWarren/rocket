@@ -82,11 +82,14 @@ hi fzf2         gui=none   guifg=#9262c2 guibg=#332d36
 hi fzf3         gui=none   guifg=#9262c2 guibg=#332d36
 
 " sign column diagnositics
-hi ErrorSign    gui=none   guifg=#9262c2 guibg=#161517
-hi ErrorSignVirtual    gui=none   guifg=#48315f guibg=none
-hi WarningSign       gui=none   guifg=#6e144a guibg=#161517
-hi InfoSign       gui=none   guifg=#42557e guibg=#161517
-hi VirtualText        gui=none     guifg=#4b464d  cterm=none
+hi ErrorSign            gui=none   guifg=#9262c2 guibg=#161517
+hi ErrorVirtual         gui=none   guifg=#48315f guibg=none
+hi WarningSign          gui=none   guifg=#ff00ac guibg=#161517
+hi WarningVirtual       gui=none   guifg=#6e144a guibg=none
+hi InfoSign             gui=none   guifg=#87afff guibg=#161517
+hi InfoVirtual          gui=none   guifg=#262f44 guibg=none
+
+hi VirtualText          gui=none   guifg=#4b464d cterm=none
 
 " tabs (non gui)
 hi   TabLine        gui=none       guifg=#4b464d  guibg=#2c292d cterm=none
@@ -453,11 +456,11 @@ hi   link     CocPumFloating        PmenuSide
 hi   link     CocPumFloatingDetail  PmenuSide
 hi   link     CocCodeLens           PmenuSide
 hi   link     CocErrorSign          ErrorSign
-hi   link     CocErrorVirtualText   ErrorSignVirtual
+hi   link     CocErrorVirtualText   ErrorVirtual
 hi   link     CocWarningSign        WarningSign
-hi   link     CocWarningVirtualText VirtualText
+hi   link     CocWarningVirtualText WarningVirtual
 hi   link     CocInfoSign           InfoSign
-hi   link     CocInfoVirtualText    VirtualText
+hi   link     CocInfoVirtualText    InfoVirtual
 hi   link     CocHintSign           Identifier
 hi   link     CocHintFloat          Identifier
 hi   link     CocHighlightText      ColorColumn
