@@ -9,8 +9,7 @@ if exists("syntax_on")
 endif
 let g:colors_name="rocket"
 
-" hi Normal guifg=#e3dee6 guibg=#201e21 gui=none
-hi Normal guifg=#cdc4d7 guibg=#232124 gui=none
+hi Normal guifg=#cdc4d7 guibg=#201e21 gui=none
 
 " highlight groups
 hi Cursor       guibg=#d7afff guifg=#161517 gui=none
