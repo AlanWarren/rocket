@@ -96,7 +96,7 @@ hi   TabLineSel     gui=none       guifg=#b9a0d2  guibg=#2c292d
 
 "    Syntax         highlighting
 " hi   Comment        gui=none      guifg=#635c65  guibg=#282529
-hi   Comment        gui=none      guifg=#4b464d  guibg=none
+hi   Comment        gui=italic      guifg=#4b464d  guibg=none
 hi   Todo           gui=italic     guifg=#c5b4ce  guibg=#332d36 cterm=italic
 "hi   Constant       gui=none       guifg=#6e9cbe
 hi  Constant       gui=none      guifg=#8c7cb0
@@ -112,7 +112,6 @@ hi   Identifier2    gui=italic     guifg=#d7d7ff  cterm=none
 hi   Function       gui=none       guifg=#ff00ac
 hi   Method         gui=none       guifg=#ff72d2
 hi   Function2      gui=none       guifg=#d787d7
-hi   Function3      gui=italic     guifg=#ffd7d7 
 hi   Type           gui=none       guifg=#ffffff
 hi   Statement      gui=none       guifg=#8b91d1 
 hi   Conditional    gui=none       guifg=#8b91d1
@@ -151,8 +150,8 @@ hi   TypeName         guifg=#a0adea gui=none
 hi   FuncType         guifg=#d1bde6 gui=none
 hi   ECLMTag          guifg=#acb6e7 gui=none
 hi   TypeRef          guifg=#dfedff gui=none
-hi   Interface        guifg=#74f0ff gui=italic
-hi   Interface2       guifg=#ffd7ff gui=italic
+hi   Interface        guifg=#74f0ff gui=none
+hi   Interface2       guifg=#ffd7ff gui=none
 
 hi   Member           guifg=#b7b7eb gui=none
 
@@ -259,7 +258,7 @@ hi   link     rubyKeywordAsMethod           Method
 hi   link     rubyClassVariable             TypeName
 hi   link     rubyClassName                 Class
 hi   link     rubyArrayDelimiter            Operator
-hi   link     rubyBangPredicateMethod       Function3
+hi   link     rubyBangPredicateMethod       Function2
 hi   link     rubyInstanceVariable          Member
 hi   link     rubyKeyword                   PreProc
 hi   link     rubyHelper                    PreProc
@@ -379,8 +378,8 @@ hi  link     jsFunction             Constant
 hi  link     jsFuncCall             Function
 hi  link     jsFuncBlock            Identifier
 hi  link     jsObjectValue          FuncType
-hi  link     jsDecoratorFunction    Function3
-hi  link     jsDecorator            Function3
+hi  link     jsDecoratorFunction    Function2
+hi  link     jsDecorator            Function2
 hi  link     jsDestructuringBlock   Identifier2
 hi  link     jsDestructuringProperty Identifier
 hi  link     jsDestructuringPropertyValue Identifier
@@ -442,7 +441,7 @@ hi   link     pythonDecorator       PreProc
 hi   link     pythonDottedName      PreProc
 hi   link     pythonDotyName        Type
 hi   link     pythonDottedName      Type
-hi   link     pythonFunctionTag     Function3
+hi   link     pythonFunctionTag     Function2
 hi   link     pythonMethodTag       Structure
 hi   link     pythonClassTag        Class
 hi   link     pythonBuiltinFunc     Method
