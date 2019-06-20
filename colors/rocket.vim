@@ -78,7 +78,7 @@ hi PmenuThumb   gui=none   guifg=#2a272b guibg=#2a272b
 hi PmenuSide    gui=none   guifg=#cac0d3 guibg=#4b464d
 
 hi WildMenu     gui=none   guifg=#ffffff guibg=#69a1ff
-hi Title        gui=none   guifg=#ffffff guibg=#312e33
+hi Title        gui=none   guifg=#ffffff guibg=none
 hi WarningMsg   gui=none   guifg=#af00d7 guibg=#161517
 hi MatchParen   gui=bold   guibg=#1d1b1e
 
