@@ -36,7 +36,7 @@ hi SignColumn               gui=none   guifg=#9c94a3 guibg=#161517
 " delete = 5% of diffRemoved
 " changeDelete = 15% of diffRemoved
 hi GitGutterAdd             gui=none   guifg=#4b464d guibg=#161517
-hi GitGutterChange          gui=none   guifg=#555e8a guibg=#161517
+hi GitGutterChange          gui=none   guifg=#847d8b guibg=#161517
 hi GitGutterDelete          gui=none   guifg=#45293c guibg=#161517
 hi GitGutterChangeDelete    gui=none   guifg=#632349 guibg=#161517
 " sign column diagnositics
