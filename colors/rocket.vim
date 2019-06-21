@@ -334,6 +334,8 @@ hi   link     diffRemoved           Function
 hi   link     diffSubname           StructDef
 hi   link     diffIndexLine         Special
 hi   link     gitcommitSummary      Identifier
+" ignoring comment errors in json 
+hi  link     jsonCommentError       Comment
 "    Special  for                   Javascript
 hi  link     javaScriptWebAPI       Function
 hi  link     javascriptRCompMethods Function
