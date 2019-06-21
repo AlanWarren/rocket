@@ -258,6 +258,7 @@ hi   link     rubyKeywordAsMethod           Method
 hi   link     rubyClassVariable             TypeName
 hi   link     rubyClassName                 Class
 hi   link     rubyArrayDelimiter            Operator
+hi   link     rubyArrayLiteral              Identifier
 hi   link     rubyBangPredicateMethod       Function2
 hi   link     rubyInstanceVariable          Member
 hi   link     rubyKeyword                   PreProc
