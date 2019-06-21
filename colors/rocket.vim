@@ -53,7 +53,7 @@ hi Folded       gui=italic guifg=#847d8b guibg=#1b191c cterm=italic
 hi FoldColumn   gui=bold   guifg=#847d8b guibg=#1b191c
 
 hi LineNr       gui=none   guifg=#504d53 guibg=#181719
-hi NonText      gui=none   guifg=#504d53 guibg=#181719
+hi NonText      gui=none   guifg=#504d53 guibg=none
 " hi Folded       gui=bold   guifg=#504d53 guibg=#1c191c
 " hi FoldeColumn  gui=bold   guifg=#504d53 guibg=#1c191c
 
