@@ -14,8 +14,8 @@ hi Normal guifg=#cdc4d7 guibg=#201e21 gui=none
 " highlight groups
 hi Cursor       guibg=#d7afff guifg=#161517 gui=none
 hi CursorLine   guibg=#252226 gui=none cterm=none
-hi CursorLineNR guifg=#b9a0d2 guibg=#161517 gui=none 
-hi CursorColumn guibg=#444046  gui=none
+hi CursorLineNR guifg=#4b464d guibg=#161517 gui=none 
+hi CursorColumn guibg=#332E33  gui=none
 
 hi DiffAdd                  gui=none   guifg=bg guibg=#a7e0cc
 hi DiffAddAlt               gui=none   guifg=#a7e0cc
@@ -85,7 +85,7 @@ hi MatchParen   gui=bold   guibg=#1d1b1e
 hi Error        gui=none   guifg=#af87ff guibg=#161517
 hi ErrorMsg     gui=none   guifg=#9262c2 guibg=#161517
 hi fzf1         gui=none   guifg=#635c65 guibg=#332d36
-hi fzf2         gui=none   guifg=#9262c2 guibg=#332d36
+hi fzf2         gui=none   guifg=#847d8b guibg=#332d36
 hi fzf3         gui=none   guifg=#9262c2 guibg=#332d36
 
 
