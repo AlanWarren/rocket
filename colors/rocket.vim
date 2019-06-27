@@ -225,7 +225,8 @@ hi link gitmessengerHash            Method
 hi link gitHash                     Method
 
 hi link gitIdentity                 Identifier
-hi link gitEmail                    Class
+hi link gitEmail                    PreProc
+hi link gitEmailDelimiter           PreProc
 
 " History number at 'History:' header
 hi link gitmessengerHistory Constant
