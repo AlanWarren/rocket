@@ -245,6 +245,7 @@ hi   link     rubySymbol                    Special
 hi   link     rubyControl                   Statement
 hi   link     rubyBeginEnd                  Keyword
 hi   link     rubyConst                     Constant
+hi   link     rubyViewHelper                Function2
 hi   link     rubyOptionalDoLine            GlobalVariable
 " hi   link     rubyConstant                  Class
 hi   link     rubyDefine                    Statement
