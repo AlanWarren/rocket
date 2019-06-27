@@ -217,10 +217,15 @@ hi   link     gitcommitSummary      Class
 hi   link     gitcommitSelectedFile PreProc
 
 " Header such as 'Commit:', 'Author:'
-hi link gitmessengerHeader Keyword
+hi link gitmessengerHeader          Function
+hi link gitKeyword                  Function
 
 " Commit hash at 'Commit:' header
-hi link gitmessengerHash Identifier
+hi link gitmessengerHash            Method
+hi link gitHash                     Method
+
+hi link gitIdentity                 Identifier
+hi link gitEmail                    Class
 
 " History number at 'History:' header
 hi link gitmessengerHistory Constant
