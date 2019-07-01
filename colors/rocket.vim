@@ -41,11 +41,11 @@ hi GitGutterDelete          gui=none   guifg=#45293c guibg=#161517
 hi GitGutterChangeDelete    gui=none   guifg=#632349 guibg=#161517
 " sign column diagnositics
 hi ErrorSign                gui=none   guifg=#ff00ac guibg=#161517
-hi ErrorVirtual             gui=none   guifg=#45293c guibg=none
+hi ErrorVirtual             gui=none   guifg=#4b464d guibg=none
 hi WarningSign              gui=none   guifg=#f5e6b6 guibg=#161517
-hi WarningVirtual           gui=none   guifg=#58554b guibg=none
+hi WarningVirtual           gui=none   guifg=#4b464d guibg=none
 hi InfoSign                 gui=none   guifg=#87afff guibg=#161517
-hi InfoVirtual              gui=none   guifg=#3c4250 guibg=none
+hi InfoVirtual              gui=none   guifg=#4b464d guibg=none
 hi VirtualText              gui=none   guifg=#4b464d cterm=none
 
 hi vimFold      gui=bold   guifg=#847d8b guibg=#1b191c
