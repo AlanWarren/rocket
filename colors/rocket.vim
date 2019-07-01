@@ -67,7 +67,7 @@ hi MoreMsg                 guifg=#ff00ac
 hi Question     gui=none   guifg=#9262c2 guibg=#161517
 hi Visual       gui=none   guibg=#332E33
 hi VisualNOS    gui=bold,underline guifg=#665f69 guibg=#2c292d
-hi IncSearch    gui=none   guibg=#eff5b6 guifg=#161517
+hi IncSearch    gui=none   guibg=#74f0ff guifg=#161517
 hi Search       gui=none   guibg=#332E33 guifg=#eff5b6
 hi SpecialKey   gui=none   guifg=#504d53 guibg=#232124
 
