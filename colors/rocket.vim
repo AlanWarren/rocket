@@ -237,6 +237,8 @@ hi link gitmessengerPopupNormal Pmenu
 " Color of 'end of buffer'. To hide '~' in popup window, set 'None'
 hi gitmessengerEndOfBuffer term=None guifg=None guibg=None ctermfg=None ctermbg=None
 
+" fzf & coc
+hi  link     NormalFloat            Pmenu
 "    Ruby
 "hi   link     RubyStringDemiliter   String
 " hi   link     rubyAttribute                 TypeName
