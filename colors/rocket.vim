@@ -71,7 +71,7 @@ hi IncSearch    gui=none   guibg=#74f0ff guifg=#161517
 hi Search       gui=none   guibg=#332E33 guifg=#eff5b6
 hi SpecialKey   gui=none   guifg=#504d53 guibg=#232124
 
-hi Pmenu        gui=none   guifg=#ded2ff guibg=#232124
+hi Pmenu        gui=none   guifg=#cac0d3 guibg=#312e33
 hi PmenuSel     gui=none   guifg=#161517 guibg=#ddb3dd
 hi PmenuSbar    gui=none   guifg=#504d53 guibg=#504d53
 hi PmenuThumb   gui=none   guifg=#2a272b guibg=#2a272b
@@ -129,6 +129,8 @@ hi   Operator       gui=none       guifg=#a19dd3
 " hi   Operator       gui=none       guifg=#8a878e
 hi   ECLMitalic     gui=italic     guifg=#cec8d7
 hi   StorageClass   gui=none       guifg=#8787af
+" fzf & coc
+hi NormalFloat       gui=none   guifg=#ded2ff guibg=#232124
 
 " NOTE: the following require TagHighlight, or modified syntax scripts
 " 97cfff is good
@@ -237,8 +239,6 @@ hi link gitmessengerPopupNormal Pmenu
 " Color of 'end of buffer'. To hide '~' in popup window, set 'None'
 hi gitmessengerEndOfBuffer term=None guifg=None guibg=None ctermfg=None ctermbg=None
 
-" fzf & coc
-hi  link     NormalFloat            Pmenu
 "    Ruby
 "hi   link     RubyStringDemiliter   String
 " hi   link     rubyAttribute                 TypeName
