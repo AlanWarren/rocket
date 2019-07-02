@@ -71,7 +71,7 @@ hi IncSearch    gui=none   guibg=#74f0ff guifg=#161517
 hi Search       gui=none   guibg=#332E33 guifg=#eff5b6
 hi SpecialKey   gui=none   guifg=#504d53 guibg=#232124
 
-hi Pmenu        gui=none   guifg=#cac0d3 guibg=#312e33
+hi Pmenu        gui=none   guifg=#ded2ff guibg=#312e33
 hi PmenuSel     gui=none   guifg=#161517 guibg=#ddb3dd
 hi PmenuSbar    gui=none   guifg=#504d53 guibg=#504d53
 hi PmenuThumb   gui=none   guifg=#2a272b guibg=#2a272b
