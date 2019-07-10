@@ -85,9 +85,10 @@ hi MatchParen   gui=bold   guibg=#1d1b1e
 hi Error        gui=none   guifg=#af87ff guibg=#161517
 hi ErrorMsg     gui=none   guifg=#9262c2 guibg=#161517
 hi fzf1         gui=none   guifg=#635c65 guibg=#332d36
-hi fzf2         gui=none   guifg=#847d8b guibg=#332d36
+hi fzf2         gui=none   guifg=#d7d7ff guibg=#332d36
 hi fzf3         gui=none   guifg=#847d8b guibg=#332d36
-
+" fzf & coc
+hi NormalFloat       gui=none   guifg=#cdc4d7 guibg=#332e33
 
 " tabs (non gui)
 hi   TabLine        gui=none       guifg=#4b464d  guibg=#2c292d cterm=none
@@ -129,8 +130,6 @@ hi   Operator       gui=none       guifg=#a19dd3
 " hi   Operator       gui=none       guifg=#8a878e
 hi   ECLMitalic     gui=italic     guifg=#cec8d7
 hi   StorageClass   gui=none       guifg=#8787af
-" fzf & coc
-hi NormalFloat       gui=none   guifg=#ded2ff guibg=#221e24
 
 " NOTE: the following require TagHighlight, or modified syntax scripts
 " 97cfff is good
