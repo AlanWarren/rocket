@@ -184,7 +184,7 @@ hi   link     VisualNOS             Visual
 hi   link     NERDTreeOpenable      Ignore
 hi   link     NERDTreeClosable      Number
 hi   link     NERDTreeFile          Number
-hi   link     NERDTreeCWD           Method
+hi   link     NERDTreeCWD           Special
 hi   link     NERDTreeExecFile      Number
 hi   link     NERDTreeFlags         StructDef
 " hi   link     nerdtreeFileExtensionIcon_js   Keyword
