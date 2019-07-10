@@ -85,7 +85,7 @@ hi MatchParen   gui=bold   guibg=#1d1b1e
 hi Error        gui=none   guifg=#af87ff guibg=#161517
 hi ErrorMsg     gui=none   guifg=#9262c2 guibg=#161517
 hi fzf1         gui=none   guifg=#635c65 guibg=#332d36
-hi fzf2         gui=none   guifg=#d7d7ff guibg=#332d36
+hi fzf2         gui=none   guifg=#b9b1c2 guibg=#332d36
 hi fzf3         gui=none   guifg=#847d8b guibg=#332d36
 " fzf & coc
 hi NormalFloat       gui=none   guifg=#cdc4d7 guibg=#332e33
