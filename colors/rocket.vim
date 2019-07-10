@@ -130,7 +130,7 @@ hi   Operator       gui=none       guifg=#a19dd3
 hi   ECLMitalic     gui=italic     guifg=#cec8d7
 hi   StorageClass   gui=none       guifg=#8787af
 " fzf & coc
-hi NormalFloat       gui=none   guifg=#ded2ff guibg=#232124
+hi NormalFloat       gui=none   guifg=#ded2ff guibg=#221e24
 
 " NOTE: the following require TagHighlight, or modified syntax scripts
 " 97cfff is good
