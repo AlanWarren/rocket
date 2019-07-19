@@ -492,3 +492,4 @@ hi   def link     BufferCurMod          WarningMsg
 hi   def link     BufferPath            Comment
 "Buftabline
 hi   def link     BufTabLineActive      Method
+hi   def link     plugEdge      Method
