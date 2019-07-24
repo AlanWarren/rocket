@@ -10,7 +10,7 @@ endif
 let g:colors_name="rocket"
 
 hi Normal guifg=#cdc4d7 guibg=#201e21 gui=none
-
+hi Terminal guifg=#cdc4d7 guibg=#1b191c gui=none
 " highlight groups
 hi Cursor       guibg=#d7afff guifg=#161517 gui=none
 hi CursorLine   guibg=#252226 gui=none cterm=none
