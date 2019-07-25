@@ -71,11 +71,11 @@ hi IncSearch    gui=none   guibg=#74f0ff guifg=#161517
 hi Search       gui=none   guibg=#332E33 guifg=#eff5b6
 hi SpecialKey   gui=none   guifg=#504d53 guibg=#232124
 
-hi Pmenu        gui=none   guifg=#cdc4d7 guibg=#312e33
+hi Pmenu        gui=none   guifg=#dce7fd guibg=#312e33
 hi PmenuSel     gui=none   guifg=#161517 guibg=#ddb3dd
 hi PmenuSbar    gui=none   guifg=#504d53 guibg=#504d53
 hi PmenuThumb   gui=none   guifg=#2a272b guibg=#2a272b
-hi PmenuSide    gui=none   guifg=#cac0d3 guibg=#4b464d
+hi PmenuSide    gui=none   guifg=#dce7fd guibg=#4b464d
 
 hi WildMenu     gui=none   guifg=#ffffff guibg=#69a1ff
 hi Title        gui=none   guifg=#ffffff guibg=none
@@ -88,7 +88,7 @@ hi fzf1         gui=none   guifg=#635c65 guibg=#332d36
 hi fzf2         gui=none   guifg=#b9b1c2 guibg=#332d36
 hi fzf3         gui=none   guifg=#847d8b guibg=#332d36
 " fzf & coc
-hi NormalFloat       gui=none   guifg=#cdc4d7 guibg=#332e33
+hi NormalFloat       gui=none   guifg=#dce7fd guibg=#332e33
 
 " tabs (non gui)
 hi   TabLine        gui=none       guifg=#4b464d  guibg=#2c292d cterm=none
