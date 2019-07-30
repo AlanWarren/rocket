@@ -462,7 +462,7 @@ hi   link     luaFuncKeyword        Statement
 " CoC 
 hi   link     CocPumFloating        PmenuSide
 hi   link     CocPumFloatingDetail  PmenuSide
-hi   link     CocCodeLens           PmenuSide
+hi   link     CocCodeLens           InfoVirtual
 hi   link     CocErrorSign          ErrorSign
 hi   link     CocErrorVirtualText   ErrorVirtual
 hi   link     CocWarningSign        WarningSign
