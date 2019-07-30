@@ -9,8 +9,8 @@ if exists("syntax_on")
 endif
 let g:colors_name="rocket"
 
-hi Normal guifg=#dce7fd guibg=#201e21 gui=none
-hi Terminal guifg=#dce7fd guibg=#1b191c gui=none
+hi Normal guifg=#cdc4d7 guibg=#201e21 gui=none
+hi Terminal guifg=#cdc4d7 guibg=#1b191c gui=none
 " highlight groups
 hi Cursor       guibg=#d7afff guifg=#161517 gui=none
 hi CursorLine   guibg=#252226 gui=none cterm=none
@@ -102,11 +102,11 @@ hi   Todo           gui=italic     guifg=#c5b4ce  guibg=#332d36 cterm=italic
 "hi   Constant       gui=none       guifg=#6e9cbe
 hi  Constant       gui=none      guifg=#8c7cb0
 " hi   String         gui=none      guifg=#d7e6ff
-hi   String         gui=none       guifg=#ABD6FF
-"hi   String         gui=none       guifg=#ded2ff
+"hi   String         gui=none       guifg=#ABD6FF
+hi   String         gui=none       guifg=#d5e2fd
 "hi   String         gui=none       guifg=#bbd5f1
 " hi   String         gui=none       guifg=#eff5b6
-"hi   String         gui=none       guifg=#a98bb8  guibg=#252326
+"hi   String         gui=none       guifg=#a7e0cc
 "hi   String         gui=none       guifg=#bae8ff
 hi   Identifier     gui=none       guifg=#d7d7ff  cterm=none
 hi   Identifier2    gui=italic     guifg=#d7d7ff  cterm=none
