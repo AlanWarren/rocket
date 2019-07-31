@@ -473,8 +473,8 @@ hi   link     CocHintSign           Identifier
 hi   link     CocHintFloat          Identifier
 hi   link     CocHighlightText      ColorColumn
 " shell
-hi   def link     shDeref             Union
-hi   def link     shDerefVar          Union
+" hi   def link     shDeref             Union
+" hi   def link     shDerefVar          Union
 " CtrlP
 hi   def link     NoEntries             Error
 hi   def link     Mode1                 Character
