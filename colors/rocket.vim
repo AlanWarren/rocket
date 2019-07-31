@@ -9,12 +9,12 @@ if exists("syntax_on")
 endif
 let g:colors_name="rocket"
 
-hi Normal guifg=#cdc4d7 guibg=#201e21 gui=none
-hi Terminal guifg=#cdc4d7 guibg=#1b191c gui=none
+hi Normal guifg=#cdc4d7 guibg=#2a272b gui=none
+hi Terminal guifg=#cdc4d7 guibg=#201e21 gui=none
 " highlight groups
 hi Cursor       guibg=#d7afff guifg=#161517 gui=none
 hi CursorLine   guibg=#252226 gui=none cterm=none
-hi CursorLineNR guifg=#4b464d guibg=#161517 gui=none 
+hi CursorLineNR guifg=#4a434c guibg=#161517 gui=none 
 hi CursorColumn guibg=#332E33  gui=none
 
 hi DiffAdd                  gui=none   guifg=bg guibg=#a7e0cc
@@ -26,7 +26,7 @@ hi DiffDeleteAlt            gui=none   guifg=#2c292d
 hi DiffAddRev               gui=none   guifg=#a7e0cc
 hi DiffChangeRev            gui=none   guifg=#ddafdf
 
-hi Directory                gui=none   guifg=#d7d7ff
+hi Directory                gui=none   guifg=#b2abba 
 
 hi SignColumn               gui=none   guifg=#9c94a3 guibg=#161517
 
@@ -41,27 +41,27 @@ hi GitGutterDelete          gui=none   guifg=#ff72d2 guibg=#161517
 hi GitGutterChangeDelete    gui=none   guifg=#ca62a2 guibg=#161517
 " sign column diagnositics
 hi ErrorSign                gui=none   guifg=#ff00ac guibg=#161517
-hi ErrorVirtual             gui=none   guifg=#4b464d guibg=none
+hi ErrorVirtual             gui=none   guifg=#4a434c guibg=none
 hi WarningSign              gui=none   guifg=#f5e6b6 guibg=#161517
-hi WarningVirtual           gui=none   guifg=#4b464d guibg=none
+hi WarningVirtual           gui=none   guifg=#4a434c guibg=none
 hi InfoSign                 gui=none   guifg=#87afff guibg=#161517
-hi InfoVirtual              gui=none   guifg=#4b464d guibg=none
-hi VirtualText              gui=none   guifg=#4b464d cterm=none
+hi InfoVirtual              gui=none   guifg=#4a434c guibg=none
+hi VirtualText              gui=none   guifg=#4a434c cterm=none
 
-hi vimFold      gui=bold   guifg=#847d8b guibg=#1b191c
-hi Folded       gui=italic guifg=#847d8b guibg=#1b191c cterm=italic
-hi FoldColumn   gui=bold   guifg=#847d8b guibg=#1b191c
+hi vimFold      gui=bold   guifg=#847b8c guibg=#1b191c
+hi Folded       gui=italic guifg=#847b8c guibg=#1b191c cterm=italic
+hi FoldColumn   gui=bold   guifg=#847b8c guibg=#1b191c
 
-hi LineNr       gui=none   guifg=#504d53 guibg=#181719
-hi NonText      gui=none   guifg=#504d53 guibg=none
-" hi Folded       gui=bold   guifg=#504d53 guibg=#1c191c
-" hi FoldeColumn  gui=bold   guifg=#504d53 guibg=#1c191c
+hi LineNr       gui=none   guifg=#4f4a54 guibg=#181719
+hi NonText      gui=none   guifg=#4f4a54 guibg=none
+" hi Folded       gui=bold   guifg=#4f4a54 guibg=#1c191c
+" hi FoldeColumn  gui=bold   guifg=#4f4a54 guibg=#1c191c
 
-hi VertSplit    gui=none   guifg=#312e33 guibg=#1b191c
+hi VertSplit    gui=none   guifg=#312d33 guibg=#1b191c
 hi StatusLine   gui=none   guifg=#FFFFFF guibg=#1b191c
 hi StatusLineNC gui=none   guifg=#7a7480 guibg=#1b191c
 "hi ColorColumn  gui=none                 guibg=#1e1c1f
-hi ColorColumn  gui=none                 guibg=#312e33
+hi ColorColumn  gui=none                 guibg=#312d33
 hi ModeMsg      gui=bold   guifg=#92a1ea guibg=#232124
 hi MoreMsg                 guifg=#ff00ac
 hi Question     gui=none   guifg=#9262c2 guibg=#161517
@@ -69,13 +69,13 @@ hi Visual       gui=none   guibg=#332E33
 hi VisualNOS    gui=bold,underline guifg=#665f69 guibg=#2c292d
 hi IncSearch    gui=none   guibg=#74f0ff guifg=#161517
 hi Search       gui=none   guibg=#332E33 guifg=#eff5b6
-hi SpecialKey   gui=none   guifg=#504d53 guibg=#232124
+hi SpecialKey   gui=none   guifg=#4f4a54 guibg=#232124
 
-hi Pmenu        gui=none   guifg=#dce7fd guibg=#312e33
+hi Pmenu        gui=none   guifg=#dce7fd guibg=#312d33
 hi PmenuSel     gui=none   guifg=#161517 guibg=#ddb3dd
-hi PmenuSbar    gui=none   guifg=#504d53 guibg=#504d53
-hi PmenuThumb   gui=none   guifg=#2a272b guibg=#2a272b
-hi PmenuSide    gui=none   guifg=#dce7fd guibg=#4b464d
+hi PmenuSbar    gui=none   guifg=#4f4a54 guibg=#4f4a54
+hi PmenuThumb   gui=none   guifg=#2a262b guibg=#2a262b
+hi PmenuSide    gui=none   guifg=#dce7fd guibg=#4a434c
 
 hi WildMenu     gui=none   guifg=#ffffff guibg=#69a1ff
 hi Title        gui=none   guifg=#ffffff guibg=none
@@ -84,26 +84,26 @@ hi MatchParen   gui=bold   guibg=#1d1b1e
 
 hi Error        gui=none   guifg=#af87ff guibg=#161517
 hi ErrorMsg     gui=none   guifg=#9262c2 guibg=#161517
-hi fzf1         gui=none   guifg=#635c65 guibg=#332d36
+hi fzf1         gui=none   guifg=#635a66 guibg=#332d36
 hi fzf2         gui=none   guifg=#b9b1c2 guibg=#332d36
-hi fzf3         gui=none   guifg=#847d8b guibg=#332d36
+hi fzf3         gui=none   guifg=#847b8c guibg=#332d36
 " fzf & coc
 hi NormalFloat       gui=none   guifg=#dce7fd guibg=#332e33
 
 " tabs (non gui)
-hi   TabLine        gui=none       guifg=#4b464d  guibg=#2c292d cterm=none
+hi   TabLine        gui=none       guifg=#4a434c  guibg=#2c292d cterm=none
 hi   TabLineFill    gui=none       guifg=#2c292d  guibg=#2c292d
 hi   TabLineSel     gui=none       guifg=#b9a0d2  guibg=#2c292d
 
 "    Syntax         highlighting
-" hi   Comment        gui=none      guifg=#635c65  guibg=#282529
-hi   Comment        gui=italic      guifg=#4b464d  guibg=none
+" hi   Comment        gui=none      guifg=#635a66  guibg=#282529
+hi   Comment        gui=italic      guifg=#4a434c  guibg=none
 hi   Todo           gui=italic     guifg=#c5b4ce  guibg=#332d36 cterm=italic
 "hi   Constant       gui=none       guifg=#6e9cbe
 hi  Constant       gui=none      guifg=#8c7cb0
 " hi   String         gui=none      guifg=#d7e6ff
 "hi   String         gui=none       guifg=#ABD6FF
-hi   String         gui=none       guifg=#d5e2fd
+hi   String         gui=none       guifg=#f1f5c9
 "hi   String         gui=none       guifg=#bbd5f1
 " hi   String         gui=none       guifg=#eff5b6
 "hi   String         gui=none       guifg=#a7e0cc
@@ -118,7 +118,7 @@ hi   Statement      gui=none       guifg=#8b91d1
 hi   Conditional    gui=none       guifg=#8b91d1
 hi   Keyword        gui=none       guifg=#79a6ff
 hi   PreProc        gui=none       guifg=#87d7ff
-hi   Number         gui=none       guifg=#847d8b
+hi   Number         gui=none       guifg=#847b8c
 "hi   Special        gui=none       guifg=#b9a0d2
 hi   Special        gui=none       guifg=#c8b5ff
 "hi   Special        gui=none       guifg=#a2a0a9
@@ -180,12 +180,12 @@ hi   link     CursorIM              Cursor
 hi   link     VisualNOS             Visual
 
 "    NERDTree 
-hi   link     NERDTreeOpenable      Ignore
+hi   link     NERDTreeOpenable      Number
 hi   link     NERDTreeClosable      Number
 hi   link     NERDTreeFile          Number
 hi   link     NERDTreeCWD           Special
 hi   link     NERDTreeExecFile      Number
-hi   link     NERDTreeFlags         StructDef
+" hi   link     NERDTreeFlags         StructDef
 " hi   link     nerdtreeFileExtensionIcon_js   Keyword
 " hi   link     nerdtreeFileExtensionIcon_css  Class
 "    Errors / Linting
