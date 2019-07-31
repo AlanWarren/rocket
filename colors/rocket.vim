@@ -52,7 +52,7 @@ hi vimFold      gui=bold   guifg=#847b8c guibg=#1b191c
 hi Folded       gui=italic guifg=#847b8c guibg=#1b191c cterm=italic
 hi FoldColumn   gui=bold   guifg=#847b8c guibg=#1b191c
 
-hi LineNr       gui=none   guifg=#4f4a54 guibg=#181719
+hi LineNr       gui=none   guifg=#4f4a54 guibg=#201e21
 hi NonText      gui=none   guifg=#4f4a54 guibg=none
 " hi Folded       gui=bold   guifg=#4f4a54 guibg=#1c191c
 " hi FoldeColumn  gui=bold   guifg=#4f4a54 guibg=#1c191c
