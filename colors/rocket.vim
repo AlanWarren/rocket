@@ -68,7 +68,7 @@ hi Question     gui=none   guifg=#9262c2 guibg=#161517
 hi Visual       gui=none   guibg=#332E33
 hi VisualNOS    gui=bold,underline guifg=#665f69 guibg=#2c292d
 hi IncSearch    gui=none   guibg=#74f0ff guifg=#161517
-hi Search       gui=none   guibg=#332E33 guifg=#eff5b6
+hi Search       gui=none   guibg=#201e21 guifg=#ff6fff
 hi SpecialKey   gui=none   guifg=#4f4a54 guibg=#232124
 
 hi Pmenu        gui=none   guifg=#dce7fd guibg=#312d33
@@ -472,6 +472,9 @@ hi   link     CocInfoVirtualText    InfoVirtual
 hi   link     CocHintSign           Identifier
 hi   link     CocHintFloat          Identifier
 hi   link     CocHighlightText      ColorColumn
+" shell
+hi   def link     PreProc             Union
+hi   def link     shDerefVar          Union
 " CtrlP
 hi   def link     NoEntries             Error
 hi   def link     Mode1                 Character
