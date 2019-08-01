@@ -9,7 +9,7 @@ if exists("syntax_on")
 endif
 let g:colors_name="rocket"
 
-hi Normal guifg=#cdc4d7 guibg=#2a272b gui=none
+hi Normal guifg=#cdc4d7 guibg=#282529 gui=none
 hi Terminal guifg=#cdc4d7 guibg=#201e21 gui=none
 " highlight groups
 hi Cursor       guibg=#d7afff guifg=#161517 gui=none
