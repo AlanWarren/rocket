@@ -65,7 +65,7 @@ hi ColorColumn  gui=none                 guibg=#312d33
 hi ModeMsg      gui=bold   guifg=#92a1ea guibg=#232124
 hi MoreMsg                 guifg=#ff00ac
 hi Question     gui=none   guifg=#9262c2 guibg=#161517
-hi Visual       gui=none   guibg=#332E33
+hi Visual       gui=none   guibg=#3b353b
 hi VisualNOS    gui=bold,underline guifg=#665f69 guibg=#2c292d
 hi IncSearch    gui=none   guibg=#74f0ff guifg=#161517
 hi Search       gui=none   guibg=#201e21 guifg=#ff6fff
