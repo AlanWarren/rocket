@@ -52,16 +52,16 @@ hi vimFold      gui=bold   guifg=#847b8c guibg=#1b191c
 hi Folded       gui=italic guifg=#847b8c guibg=#1b191c cterm=italic
 hi FoldColumn   gui=bold   guifg=#847b8c guibg=#1b191c
 
-hi LineNr       gui=none   guifg=#4f4a54 guibg=#201e21
-hi NonText      gui=none   guifg=#4f4a54 guibg=none
-" hi Folded       gui=bold   guifg=#4f4a54 guibg=#1c191c
-" hi FoldeColumn  gui=bold   guifg=#4f4a54 guibg=#1c191c
+hi LineNr       gui=none   guifg=#4f4a4d guibg=#201e21
+hi NonText      gui=none   guifg=#4f4a4d guibg=none
+" hi Folded       gui=bold   guifg=#5a555e guibg=#1c191c
+" hi FoldeColumn  gui=bold   guifg=#5a555e guibg=#1c191c
 
-hi VertSplit    gui=none   guifg=#312d33 guibg=#1b191c
+hi VertSplit    gui=none   guifg=#3d3840 guibg=#1b191c
 hi StatusLine   gui=none   guifg=#FFFFFF guibg=#1b191c
 hi StatusLineNC gui=none   guifg=#7a7480 guibg=#1b191c
 "hi ColorColumn  gui=none                 guibg=#1e1c1f
-hi ColorColumn  gui=none                 guibg=#312d33
+hi ColorColumn  gui=none                 guibg=#3d3840
 hi ModeMsg      gui=bold   guifg=#92a1ea guibg=#232124
 hi MoreMsg                 guifg=#ff00ac
 hi Question     gui=none   guifg=#9262c2 guibg=#161517
@@ -69,13 +69,13 @@ hi Visual       gui=none   guibg=#3b353b
 hi VisualNOS    gui=bold,underline guifg=#665f69 guibg=#2c292d
 hi IncSearch    gui=none   guibg=#74f0ff guifg=#161517
 hi Search       gui=none   guibg=#201e21 guifg=#ff6fff
-hi SpecialKey   gui=none   guifg=#4f4a54 guibg=#232124
+hi SpecialKey   gui=none   guifg=#5a555e guibg=#232124
 
-hi Pmenu        gui=none   guifg=#dce7fd guibg=#312d33
+hi Pmenu        gui=none   guifg=#dce7fd guibg=#3d3840
 hi PmenuSel     gui=none   guifg=#161517 guibg=#ddb3dd
-hi PmenuSbar    gui=none   guifg=#4f4a54 guibg=#4f4a54
+hi PmenuSbar    gui=none   guifg=#5a555e guibg=#5a555e
 hi PmenuThumb   gui=none   guifg=#2a262b guibg=#2a262b
-hi PmenuSide    gui=none   guifg=#dce7fd guibg=#4a434c
+hi PmenuSide    gui=none   guifg=#dce7fd guibg=#524c54
 
 hi WildMenu     gui=none   guifg=#ffffff guibg=#69a1ff
 hi Title        gui=none   guifg=#ffffff guibg=none
