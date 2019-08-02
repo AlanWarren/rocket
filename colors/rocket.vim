@@ -103,8 +103,8 @@ hi   Todo           gui=italic     guifg=#c5b4ce  guibg=#332d36 cterm=italic
 hi  Constant       gui=none      guifg=#8c7cb0
 " hi   String         gui=none      guifg=#d7e6ff
 "hi   String         gui=none       guifg=#ABD6FF
-hi   String         gui=none       guifg=#f1f5c9
-"hi   String         gui=none       guifg=#bbd5f1
+" hi   String         gui=none       guifg=#f1f5c9
+hi   String         gui=none       guifg=#bbd5f1
 " hi   String         gui=none       guifg=#eff5b6
 "hi   String         gui=none       guifg=#a7e0cc
 "hi   String         gui=none       guifg=#bae8ff
@@ -123,7 +123,7 @@ hi   Number         gui=none       guifg=#847b8c
 hi   Special        gui=none       guifg=#c8b5ff
 "hi   Special        gui=none       guifg=#a2a0a9
 hi   Special2       gui=italic     guifg=#b6aaeb
-hi   TypeDef        gui=none       guifg=#b9a0d2
+hi   TypeDef        gui=none       guifg=#f1f5c9
 hi   Ignore         gui=none       guifg=#545258  guibg=#1b1d1e
 " hi   Operator       gui=none       guifg=#9c94a3
 hi   Operator       gui=none       guifg=#a19dd3
@@ -170,7 +170,6 @@ hi   link     Define                DefinedName
 hi   link     Macro                 PreProc
 hi   link     PreCondit             PreProc
 hi   link     Float                 Number
-hi   link     TypeDef               Statement
 hi   link     Delimiter             Special
 hi   link     Tag                   Special
 hi   link     SpecialChar           Special
