@@ -156,6 +156,13 @@ hi   Interface2       guifg=#ffd7ff gui=none
 
 hi   Member           guifg=#b7b7eb gui=none
 
+hi  VimwikiHeader1    guifg=#ff72d2
+hi  VimwikiHeader2    guifg=#87afff
+hi  VimwikiHeader3    guifg=#efedff
+hi  VimwikiHeader4    guifg=#f1f5c9
+hi  VimwikiHeader5    guifg=#74f0ff
+hi  VimwikiHeader6    guifg=#dfedff
+
 " Modifications
 hi   link     Boolean               Constant
 hi   link     Character             Constant
@@ -178,9 +185,6 @@ hi   link     Debug                 Special
 hi   link     CursorIM              Cursor
 hi   link     VisualNOS             Visual
 
-hi   link     VimwikiHeader1        Method
-hi   link     VimwikiHeader2        GlobalConstant
-hi   link     VimwikiHeader3        Enumerator
 "    NERDTree 
 hi   link     NERDTreeOpenable      Number
 hi   link     NERDTreeClosable      Number
