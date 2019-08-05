@@ -178,6 +178,9 @@ hi   link     Debug                 Special
 hi   link     CursorIM              Cursor
 hi   link     VisualNOS             Visual
 
+hi   link     VimwikiHeader1        Method
+hi   link     VimwikiHeader2        GlobalConstant
+hi   link     VimwikiHeader3        Enumerator
 "    NERDTree 
 hi   link     NERDTreeOpenable      Number
 hi   link     NERDTreeClosable      Number
