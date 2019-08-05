@@ -156,12 +156,12 @@ hi   Interface2       guifg=#ffd7ff gui=none
 
 hi   Member           guifg=#b7b7eb gui=none
 
-hi  VimwikiHeader1    guifg=#ff72d2
-hi  VimwikiHeader2    guifg=#87afff
-hi  VimwikiHeader3    guifg=#efedff
-hi  VimwikiHeader4    guifg=#f1f5c9
-hi  VimwikiHeader5    guifg=#74f0ff
-hi  VimwikiHeader6    guifg=#dfedff
+hi  link VimwikiHeader1     Method
+hi  link VimwikiHeader2     GlobalConstant
+hi  link VimwikiHeader3     Enumerator
+hi  link VimwikiHeader4     TypeDef
+hi  link VimwikiHeader5     Interface
+hi  link VimwikiHeader6     TypeRef
 
 " Modifications
 hi   link     Boolean               Constant
