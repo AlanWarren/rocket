@@ -123,7 +123,7 @@ hi   Number         gui=none       guifg=#847b8c
 hi   Special        gui=none       guifg=#c8b5ff
 "hi   Special        gui=none       guifg=#a2a0a9
 hi   Special2       gui=italic     guifg=#b6aaeb
-hi   TypeDef        gui=none       guifg=#f1f5c9
+" hi   TypeDef        gui=none       guifg=#f1f5c9
 hi   Ignore         gui=none       guifg=#545258  guibg=#1b1d1e
 " hi   Operator       gui=none       guifg=#9c94a3
 hi   Operator       gui=none       guifg=#a19dd3
@@ -156,13 +156,6 @@ hi   Interface2       guifg=#ffd7ff gui=none
 
 hi   Member           guifg=#b7b7eb gui=none
 
-hi  link VimwikiHeader1     Method
-hi  link VimwikiHeader2     GlobalConstant
-hi  link VimwikiHeader3     Enumerator
-hi  link VimwikiHeader4     TypeDef
-hi  link VimwikiHeader5     Interface
-hi  link VimwikiHeader6     TypeRef
-
 " Modifications
 hi   link     Boolean               Constant
 hi   link     Character             Constant
@@ -177,6 +170,7 @@ hi   link     Define                DefinedName
 hi   link     Macro                 PreProc
 hi   link     PreCondit             PreProc
 hi   link     Float                 Number
+hi   link     TypeDef               Statement
 hi   link     Delimiter             Special
 hi   link     Tag                   Special
 hi   link     SpecialChar           Special
