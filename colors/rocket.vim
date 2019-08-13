@@ -143,7 +143,7 @@ hi   DefinedName      guifg=#40B5F9 gui=none
 " hi   Enumerator       guifg=#e1c3ff gui=none
 " hi   EnumerationName  guifg=#ee9bfd gui=none
 hi   Enumerator       guifg=#efedff gui=none
-hi   EnumerationName  guifg=#de9fe0 gui=none
+hi   EnumerationName  guifg=#f7aff7 gui=none
 hi   Union            guifg=#eff57c gui=none
 hi   GlobalConstant   guifg=#87afff gui=none
 hi   GlobalVariable   guifg=#a2c1ff gui=none
