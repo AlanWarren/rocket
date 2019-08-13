@@ -317,6 +317,7 @@ hi   link     cCustomClass                  Class
 hi   link     cCustomBrack                  Operator
 hi   link     cCustomScope                  Operator
 hi   link     cCustomAngleBrackets          Type
+hi   link     cDefine                       DefinedName
 hi   link     AngleBracketContents          Type
 
 "    Special  for                   XML
