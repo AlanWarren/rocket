@@ -498,3 +498,4 @@ hi   def link     BufferPath            Comment
 hi   def link     BufTabLineActive      Method
 hi   def link     plugEdge              Method
 hi   def link     plug2                 PreProc
+hi   def link     qfFileName            PreProc
