@@ -17,13 +17,13 @@ hi CursorLine   guibg=#252226 gui=none cterm=none
 hi CursorLineNR guifg=#4a434c guibg=#161517 gui=none 
 hi CursorColumn guibg=#332E33  gui=none
 
-hi DiffAdd                  gui=none   guifg=bg guibg=#a7e0cc
-hi DiffAddAlt               gui=none   guifg=#a7e0cc
-hi DiffChange               gui=none   guifg=bg guibg=#ddafdf
-hi DiffText                 gui=none   guifg=bg guibg=#d081d4
+hi DiffAdd                  gui=none   guifg=#bbd5f1 guibg=#36363d
+hi DiffAddAlt               gui=none   guifg=#87d7ff
+hi DiffChange               gui=none   guifg=#ddafdf guibg=#331a2d
+hi DiffText                 gui=none   guifg=#ff00ac guibg=#331a2d
 hi DiffDelete               gui=none   guifg=bg guibg=#2c292d
 hi DiffDeleteAlt            gui=none   guifg=#2c292d
-hi DiffAddRev               gui=none   guifg=#a7e0cc
+hi DiffAddRev               gui=none   guifg=#bbd5f1
 hi DiffChangeRev            gui=none   guifg=#ddafdf
 
 hi Directory                gui=none   guifg=#b2abba 
@@ -35,14 +35,14 @@ hi SignColumn               gui=none   guifg=#9c94a3 guibg=#161517
 " change = 15% opacity of diffAdded
 " delete = 5% of diffRemoved
 " changeDelete = 15% of diffRemoved
-hi GitGutterAdd             gui=none   guifg=#a7e0cc guibg=#161517
-hi GitGutterChange          gui=none   guifg=#a7ffcc guibg=#161517
+hi GitGutterAdd             gui=none   guifg=#bbd5f1 guibg=#161517
+hi GitGutterChange          gui=none   guifg=#87d7ff guibg=#161517
 hi GitGutterDelete          gui=none   guifg=#ff72d2 guibg=#161517
 hi GitGutterChangeDelete    gui=none   guifg=#ca62a2 guibg=#161517
 " sign column diagnositics
 hi ErrorSign                gui=none   guifg=#ff00ac guibg=#161517
 hi ErrorVirtual             gui=none   guifg=#4a434c guibg=none
-hi WarningSign              gui=none   guifg=#f5e6b6 guibg=#161517
+hi WarningSign              gui=none   guifg=#eff5b6 guibg=#161517
 hi WarningVirtual           gui=none   guifg=#4a434c guibg=none
 hi InfoSign                 gui=none   guifg=#87afff guibg=#161517
 hi InfoVirtual              gui=none   guifg=#4a434c guibg=none
@@ -65,10 +65,10 @@ hi ColorColumn  gui=none                 guibg=#3d3840
 hi ModeMsg      gui=bold   guifg=#92a1ea guibg=#232124
 hi MoreMsg                 guifg=#ff00ac
 hi Question     gui=none   guifg=#9262c2 guibg=#161517
-hi Visual       gui=none   guibg=#3b353b
+hi Visual       gui=none   guibg=#585069
 hi VisualNOS    gui=bold,underline guifg=#665f69 guibg=#2c292d
 hi IncSearch    gui=none   guibg=#74f0ff guifg=#161517
-hi Search       gui=none   guibg=#201e21 guifg=#ff6fff
+hi Search       gui=italic   guibg=#201e21 guifg=#74f0ff
 hi SpecialKey   gui=none   guifg=#5a555e guibg=#232124
 
 hi Pmenu        gui=none   guifg=#dce7fd guibg=#3d3840
@@ -337,9 +337,9 @@ hi   link     htmlItalic            ECLMitalic
 hi   link     htmlEndTag            htmlTag
 hi   link     phpDelim              PreProc
 " diff
-hi   link     diffAdded             Class
+hi   link     diffAdded             DiffAdd
 hi   link     diffLine              Operator
-hi   link     diffRemoved           Function
+hi   link     diffRemoved           DiffText
 hi   link     diffSubname           StructDef
 hi   link     diffIndexLine         Special
 hi   link     gitcommitSummary      Identifier
