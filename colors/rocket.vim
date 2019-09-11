@@ -68,7 +68,7 @@ hi Question     gui=none   guifg=#9262c2 guibg=#161517
 hi Visual       gui=none   guibg=#585069
 hi VisualNOS    gui=bold,underline guifg=#665f69 guibg=#2c292d
 hi IncSearch    gui=none   guibg=#74f0ff guifg=#161517
-hi Search       gui=italic   guibg=#201e21 guifg=#74f0ff
+hi Search       gui=italic   guibg=#201e21 guifg=#eff5b6
 hi SpecialKey   gui=none   guifg=#5a555e guibg=#232124
 
 hi Pmenu        gui=none   guifg=#dce7fd guibg=#3d3840
