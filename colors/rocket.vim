@@ -84,9 +84,9 @@ hi MatchParen   gui=bold   guibg=#1d1b1e
 
 hi Error        gui=none   guifg=#af87ff guibg=#161517
 hi ErrorMsg     gui=none   guifg=#9262c2 guibg=#161517
-hi fzf1         gui=none   guifg=#635a66 guibg=#332d36
-hi fzf2         gui=none   guifg=#b9b1c2 guibg=#332d36
-hi fzf3         gui=none   guifg=#847b8c guibg=#332d36
+hi fzf1         gui=none   guifg=#635a66 guibg=#332e33
+hi fzf2         gui=none   guifg=#b9b1c2 guibg=#332e33
+hi fzf3         gui=none   guifg=#847b8c guibg=#332e33
 " fzf & coc
 hi NormalFloat       gui=none   guifg=#dce7fd guibg=#332e33
 
@@ -98,7 +98,7 @@ hi   TabLineSel     gui=none       guifg=#b9a0d2  guibg=#2c292d
 "    Syntax         highlighting
 " hi   Comment        gui=none      guifg=#635a66  guibg=#282529
 hi   Comment        gui=italic      guifg=#4a434c  guibg=none
-hi   Todo           gui=italic     guifg=#c5b4ce  guibg=#332d36 cterm=italic
+hi   Todo           gui=italic     guifg=#c5b4ce  guibg=#332e33 cterm=italic
 "hi   Constant       gui=none       guifg=#6e9cbe
 hi  Constant       gui=none      guifg=#8c7cb0
 " hi   String         gui=none      guifg=#d7e6ff
