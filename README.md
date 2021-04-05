@@ -4,6 +4,7 @@ I've decided to share my colorscheme for vim. It's been my daily driver for the 
 Notes
 -----
 1. Supports many different languages.
+2. Tree-sitter support
 3. Intended for True Color for the time being.
 
 Warning
