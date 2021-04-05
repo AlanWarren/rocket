@@ -10,4 +10,4 @@ Warning
 -------
 I use a lot of non-default highlighting groups along with custom syntax files. YMMV 
 
-![Screenshot](https://i.imgur.com/sIAHa1J.png)
+![Screenshot](https://imgur.com/fLkR3MH)
