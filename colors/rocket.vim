@@ -9,134 +9,138 @@ if exists("syntax_on")
 endif
 let g:colors_name="rocket"
 
-hi Normal guifg=#dbe3f4 guibg=#282529 gui=none
-hi Terminal guifg=#dbe3f4 guibg=#201e21 gui=none
+hi Normal guifg=#cac3d9 guibg=#242129 gui=none
+hi Terminal guifg=#cac3d9 guibg=#1e1b21 gui=none
 " highlight groups
-hi Cursor       guibg=#d7afff guifg=#161517 gui=none
-hi CursorLine   guibg=#252226 gui=none cterm=none
-hi CursorLineNR guifg=#4a434c guibg=#161517 gui=none 
-hi CursorColumn guibg=#332E33  gui=none
+hi Cursor       guibg=#d7afff guifg=#151417 gui=none
+hi CursorLine   guibg=#1e1b21 gui=none cterm=none
+hi CursorLineNR guifg=#8c7cb0 guibg=#151417 gui=none 
+hi CursorColumn guibg=#2c2933  gui=none
 
-hi DiffAdd                  gui=none   guifg=#bbd5f1 guibg=#36363d
-hi DiffAddAlt               gui=none   guifg=#87d7ff
-hi DiffChange               gui=none   guifg=#ddafdf guibg=#331a2d
-hi DiffText                 gui=none   guifg=#ff00ac guibg=#331a2d
-hi DiffDelete               gui=none   guifg=bg guibg=#2c292d
-hi DiffDeleteAlt            gui=none   guifg=#2c292d
-hi DiffAddRev               gui=none   guifg=#bbd5f1
-hi DiffChangeRev            gui=none   guifg=#ddafdf
+hi DiffAdd                  gui=none   guifg=#242129 guibg=#a4ffee
+hi DiffAddAlt               gui=none   guifg=none guibg=#67c6b6
+"hi DiffChange               gui=none   guifg=#7e6c99 guibg=#30293a
+hi DiffChange               gui=none   guifg=none guibg=#373340
+hi DiffText                 gui=none   guifg=#d7d7ff guibg=#4d4759
 
-hi Directory                gui=none   guifg=#b2abba 
+" hi DiffChange               gui=none   guifg=#8b91d1 guibg=#373a53
+" hi DiffText                 gui=none   guifg=none guibg=#636794
+"hi DiffDelete               gui=none   guifg=#5C3A5A guibg=#412D42
+"hi DiffDelete               gui=bold   guifg=#885370 guibg=#583649
+hi DiffDelete               gui=none   guifg=#242129 guibg=#ddb3dd
+hi DiffDeleteAlt            gui=none   guifg=none guibg=#da23f6
+hi DiffAddRev               gui=none   guifg=#a4ffee
+hi DiffChangeRev            gui=none   guifg=#87afff
 
-hi SignColumn               gui=none   guifg=#9c94a3 guibg=#161517
+hi Directory                gui=none   guifg=#d7d7ff
+
+hi SignColumn               gui=none   guifg=#8d83a3 guibg=#19171c
 
 " Git Gutter 
 " add = 5% opacity of diffAdded
 " change = 15% opacity of diffAdded
 " delete = 5% of diffRemoved
 " changeDelete = 15% of diffRemoved
-hi GitGutterAdd             gui=none   guifg=#bbd5f1 guibg=#161517
-hi GitGutterChange          gui=none   guifg=#87d7ff guibg=#161517
-hi GitGutterDelete          gui=none   guifg=#ff72d2 guibg=#161517
-hi GitGutterChangeDelete    gui=none   guifg=#ca62a2 guibg=#161517
-" sign column diagnositics
-hi ErrorSign                gui=none   guifg=#ff00ac guibg=#161517
-hi ErrorVirtual             gui=none   guifg=#4a434c guibg=none
-hi WarningSign              gui=none   guifg=#eff5b6 guibg=#161517
-hi WarningVirtual           gui=none   guifg=#4a434c guibg=none
-hi InfoSign                 gui=none   guifg=#87afff guibg=#161517
-hi InfoVirtual              gui=none   guifg=#4a434c guibg=none
-hi VirtualText              gui=none   guifg=#4a434c cterm=none
+hi GitGutterAdd             gui=none   guifg=#2c2933 guibg=#19171c
+hi GitGutterChange          gui=none   guifg=#2c2933 guibg=#19171c
+hi GitGutterDelete          gui=none   guifg=#9262c2 guibg=#19171c
+hi GitGutterChangeDelete    gui=none   guifg=#8c7cb0 guibg=#19171c
+" sign column diagnositics                                  
+hi ErrorSign                gui=none   guifg=#af87ff guibg=#19171c
+hi ErrorVirtual             gui=none   guifg=#5c556a guibg=none
+hi WarningSign              gui=none   guifg=#d787d7 guibg=#19171c
+hi HintSign                 gui=none   guifg=#5c556a 
+hi WarningVirtual           gui=none   guifg=#5c556a guibg=none
+hi InfoSign                 gui=none   guifg=#a2c1ff guibg=#19171c
+hi InfoVirtual              gui=none   guifg=#5c556a guibg=none
+hi VirtualText              gui=none   guifg=#5c556a cterm=none
 
-hi vimFold      gui=bold   guifg=#847b8c guibg=#1b191c
-hi Folded       gui=italic guifg=#847b8c guibg=#1b191c cterm=italic
-hi FoldColumn   gui=bold   guifg=#847b8c guibg=#1b191c
+hi vimFold      gui=bold   guifg=#494354 guibg=#1e1b21
+hi Folded       gui=italic guifg=#494354 guibg=#1e1b21 cterm=italic
+hi FoldColumn   gui=bold   guifg=#494354 guibg=#1e1b21
 
-hi LineNr       gui=none   guifg=#4f4a4d guibg=#201e21
-hi NonText      gui=none   guifg=#4f4a4d guibg=none
-" hi Folded       gui=bold   guifg=#5a555e guibg=#1c191c
-" hi FoldeColumn  gui=bold   guifg=#5a555e guibg=#1c191c
-
-hi VertSplit    gui=none   guifg=#3d3840 guibg=#1b191c
-hi StatusLine   gui=none   guifg=#FFFFFF guibg=#1b191c
-hi StatusLineNC gui=none   guifg=#7a7480 guibg=#1b191c
+hi LineNr       gui=none   guifg=#494354 guibg=#1e1b21
+hi NonText      gui=none   guifg=#494354 guibg=none
+" hi Folded       gui=bold   guifg=#514b5e guibg=#1c191c
+" hi FoldeColumn  gui=bold   guifg=#514b5e guibg=#1c191c
+hi VertSplit    gui=none   guifg=#373340 guibg=#1e1b21
+hi StatusLine   gui=none   guifg=#FFFFFF guibg=#1e1b21
+hi StatusLineNC gui=none   guifg=#6e667f guibg=#1e1b21
 "hi ColorColumn  gui=none                 guibg=#1e1c1f
-hi ColorColumn  gui=none                 guibg=#3d3840
-hi ModeMsg      gui=bold   guifg=#92a1ea guibg=#232124
+hi ColorColumn  gui=none                 guibg=#373340
+hi ModeMsg      gui=bold   guifg=#92a1ea guibg=#1f1d24
 hi MoreMsg                 guifg=#ff00ac
-hi Question     gui=none   guifg=#9262c2 guibg=#161517
-hi Visual       gui=none   guibg=#585069
-hi VisualNOS    gui=bold,underline guifg=#665f69 guibg=#2c292d
-hi IncSearch    gui=none   guibg=#74f0ff guifg=#161517
-hi Search       gui=italic   guibg=#201e21 guifg=#eff5b6
-hi SpecialKey   gui=none   guifg=#5a555e guibg=#232124
+hi Question     gui=none   guifg=#9262c2 guibg=#151417
+hi Visual       gui=none   guibg=#373340
+hi VisualNOS    gui=bold,underline guifg=#5b5469 guibg=#29272e
+hi IncSearch    gui=none   guibg=#74f0ff guifg=#151417
+hi Search       gui=italic   guibg=#1e1b21 guifg=#a4ffee
+hi SpecialKey   gui=none   guifg=#514b5e guibg=#1f1d24
 
-hi Pmenu        gui=none   guifg=#dce7fd guibg=#3d3840
-hi PmenuSel     gui=none   guifg=#161517 guibg=#ddb3dd
-hi PmenuSbar    gui=none   guifg=#5a555e guibg=#5a555e
-hi PmenuThumb   gui=none   guifg=#2a262b guibg=#2a262b
-hi PmenuSide    gui=none   guifg=#dce7fd guibg=#524c54
+hi Pmenu        gui=none   guifg=#9085a6 guibg=#1e1b21
+hi PmenuSel     gui=none   guifg=none guibg=#373340
+hi PmenuSbar    gui=none   guifg=#7a708c guibg=#28252e
+hi PmenuThumb   gui=none   guifg=#5b5469 guibg=#28252e
+hi PmenuSide    gui=none   guifg=#c5b4ce guibg=#494354
 
 hi WildMenu     gui=none   guifg=#ffffff guibg=#69a1ff
 hi Title        gui=none   guifg=#ffffff guibg=none
-hi WarningMsg   gui=none   guifg=#af00d7 guibg=#161517
+hi WarningMsg   gui=none   guifg=#af00d7 guibg=#151417
 hi MatchParen   gui=bold   guibg=#1d1b1e
 
-hi Error        gui=none   guifg=#af87ff guibg=#161517
-hi ErrorMsg     gui=none   guifg=#9262c2 guibg=#161517
-hi fzf1         gui=none   guifg=#635a66 guibg=#332e33
-hi fzf2         gui=none   guifg=#b9b1c2 guibg=#332e33
-hi fzf3         gui=none   guifg=#847b8c guibg=#332e33
+hi Error        gui=none   guifg=#af87ff guibg=none
+hi ErrorMsg     gui=none   guifg=#9262c2 guibg=#151417
+hi fzf1         gui=none   guifg=#585266 guibg=#1e1b21
+hi fzf2         gui=none   guifg=#9085a6 guibg=#1e1b21
+hi fzf3         gui=none   guifg=#7a708c guibg=#1e1b21
+hi FZFBorder    gui=none   guifg=#2c2933 guibg=NONE ctermbg=NONE ctermfg=NONE
 " fzf & coc
-hi NormalFloat       gui=none   guifg=#dce7fd guibg=#332e33
+hi NormalFloat       gui=none   guifg=#dce7fd guibg=#2c2933
 
 " tabs (non gui)
-hi   TabLine        gui=none       guifg=#4a434c  guibg=#2c292d cterm=none
-hi   TabLineFill    gui=none       guifg=#2c292d  guibg=#2c292d
-hi   TabLineSel     gui=none       guifg=#b9a0d2  guibg=#2c292d
+hi   TabLine        gui=none       guifg=#3f3947  guibg=#29272e cterm=none
+hi   TabLineFill    gui=none       guifg=#29272e  guibg=#29272e
+hi   TabLineSel     gui=none       guifg=#b9a0d2  guibg=#29272e
 
 "    Syntax         highlighting
-" hi   Comment        gui=none      guifg=#635a66  guibg=#282529
-hi   Comment        gui=italic      guifg=#4a434c  guibg=none
-hi   Todo           gui=italic     guifg=#c5b4ce  guibg=#332e33 cterm=italic
+" hi   Comment        gui=none      guifg=#635ac6  guibg=#2c2933
+hi   Comment        gui=italic      guifg=#585266  guibg=none
+hi   Todo           gui=italic     guifg=#cac3d9  guibg=#2c2933 cterm=italic
 "hi   Constant       gui=none       guifg=#6e9cbe
 hi  Constant       gui=none      guifg=#8c7cb0
-" hi   String         gui=none      guifg=#d7e6ff
-"hi   String         gui=none       guifg=#ABD6FF
+"hi   String         gui=none      guifg=#dfe9ff
+hi   String         gui=none       guifg=#ABD6FF
 " hi   String         gui=none       guifg=#f1f5c9
-hi   String         gui=none       guifg=#bbd5f1
-" hi   String         gui=none       guifg=#eff5b6
-"hi   String         gui=none       guifg=#a7e0cc
-"hi   String         gui=none       guifg=#bae8ff
+"hi   String         gui=none       guifg=#bbd5f1
+"hi   String         gui=none       guifg=#a2c1ff
 hi   Identifier     gui=none       guifg=#d7d7ff  cterm=none
 hi   Identifier2    gui=italic     guifg=#d7d7ff  cterm=none
 hi   Function       gui=none       guifg=#ff00ac
+" hi   Method         gui=none       guifg=#93b4ff
 hi   Method         gui=none       guifg=#ff72d2
-hi   Function2      gui=none       guifg=#d787d7
+hi   Function2      gui=none       guifg=#87d7ff
+"hi   Function2      gui=none       guifg=#d787d7
 hi   Type           gui=none       guifg=#ffffff
-hi   Statement      gui=none       guifg=#8b91d1 
-hi   Conditional    gui=none       guifg=#8b91d1
-hi   Keyword        gui=none       guifg=#79a6ff
+hi   Statement      gui=italic       guifg=#8b91d1 
+hi   Conditional    gui=none       guifg=#a0adea
+hi   Keyword        gui=none       guifg=#78a0fa
 hi   PreProc        gui=none       guifg=#87d7ff
-hi   Number         gui=none       guifg=#847b8c
-"hi   Special        gui=none       guifg=#b9a0d2
+hi   Number         gui=none       guifg=#7a708c
 hi   Special        gui=none       guifg=#c8b5ff
-"hi   Special        gui=none       guifg=#a2a0a9
 hi   Special2       gui=italic     guifg=#b6aaeb
 " hi   TypeDef        gui=none       guifg=#f1f5c9
-hi   Ignore         gui=none       guifg=#545258  guibg=#1b1d1e
-" hi   Operator       gui=none       guifg=#9c94a3
-hi   Operator       gui=none       guifg=#a19dd3
-" hi   Operator       gui=none       guifg=#8a878e
-hi   ECLMitalic     gui=italic     guifg=#cec8d7
+hi   Ignore         gui=none       guifg=#4d4759  guibg=#1e1b21
+" hi   Operator       gui=none       guifg=#a19dd3
+hi   Operator       gui=none       guifg=#a0adea
+hi   ECLMitalic     gui=italic     guifg=#cac3d9
 hi   StorageClass   gui=none       guifg=#8787af
 
 " NOTE: the following require TagHighlight, or modified syntax scripts
 " 97cfff is good
-hi   StructDef        guifg=#8b91d1 gui=none
+hi   StructDef        guifg=#8c8fd3 gui=none
 hi   Structure        guifg=#efedff gui=none
 " hi   Member           guifg=#e6f2ff gui=none
-hi   LocalVariable    guifg=#c0c0dd gui=italic
+hi   LocalVariable    guifg=#e1c3ff gui=none
 "hi   Class            guifg=#41b6f6 gui=none
 hi   Class            guifg=#00d7ff gui=none
 hi   DefinedName      guifg=#40B5F9 gui=none
@@ -144,17 +148,91 @@ hi   DefinedName      guifg=#40B5F9 gui=none
 " hi   EnumerationName  guifg=#ee9bfd gui=none
 hi   Enumerator       guifg=#efedff gui=none
 hi   EnumerationName  guifg=#f7aff7 gui=none
-hi   Union            guifg=#eff57c gui=none
+hi   Union            guifg=#e5cff1 gui=none
 hi   GlobalConstant   guifg=#87afff gui=none
 hi   GlobalVariable   guifg=#a2c1ff gui=none
-hi   TypeName         guifg=#a0adea gui=none
-hi   FuncType         guifg=#d1bde6 gui=none
-hi   ECLMTag          guifg=#acb6e7 gui=none
-hi   TypeRef          guifg=#dfedff gui=none
-hi   Interface        guifg=#74f0ff gui=none
-hi   Interface2       guifg=#ffd7ff gui=none
+hi   TypeName         guifg=#a1abec gui=none
+"hi   FuncType         guifg=#d1bde6 gui=none
+hi   FuncType         guifg=#d787d7 gui=none
+hi   ECLMTag          guifg=#b6c0f2 gui=none
+hi   TypeRef          guifg=#c6d9ff gui=none
+"hi   TypeRef          guifg=#ddeaff gui=none
+hi   Interface        guifg=#a4ffee gui=none
+hi   Interface2       guifg=#7fffff gui=none
+hi   Interface3       guifg=#f1f5c9 gui=none
 
 hi   Member           guifg=#b7b7eb gui=none
+hi   Filename         guifg=#9085a6 gui=none
+
+"    NERDTree 
+hi   NERDTreeEndOfBuffer    guifg=#1e1b21 guibg=#1e1b21
+hi   link     NERDTreeWinBackground     Ignore
+hi   link     NERDTreeOpenable      Directory
+hi   link     NERDTreeClosable      Directory
+hi   link     NERDTreeFile          Method
+hi   link     NERDTreeCWD           StorageClass
+hi   link     NERDTreeRO            Comment
+hi   link     NERDTreeExecFile      Special
+hi   link     NERDTreeFlags         PreProc
+
+hi   link     TelescopeNormal               fzf3
+hi   link     TelescopeBorder               Filename
+hi   link     TelescopePromptBorder         Filename
+hi   link     TelescopeResultsBorder        Filename
+hi   link     TelescopePreviewBorder        Filename
+" hi   link     nerdtreeFileExtensionIcon_js   Keyword
+" hi   link     nerdtreeFileExtensionIcon_css  Class
+" Tree Sitter
+hi   link     TSError                   Error 
+hi   link     TSPunctDelimiter          Statement
+hi   link     TSPunctBracket            Operator
+hi   link     TSPunctSpecial            Operator 
+hi   link     TSConstant                Constant 
+hi   link     TSConstBuiltin            Constant
+hi   link     TSConstMacro              Class
+hi   link     TSStringRegex             DefinedName
+hi   link     TSString                  String
+hi   link     TSStringEscape            PreProc
+hi   link     TSCharacter               Identifier 
+hi   link     TSNumber                  Number 
+hi   link     TSBoolean                 Constant 
+hi   link     TSFloat                   Filename
+hi   link     TSAnnotation              GlobalVariable
+hi   link     TSAttribute               ECLMTag
+hi   link     TSNamespace               Method 
+hi   link     TSFuncBuiltin             FuncType
+hi   link     TSFunction                Function 
+hi   link     TSFuncMacro               Function2
+hi   link     TSParameter               TypeRef
+hi   link     TSParameterReference      Identifier
+hi   link     TSMethod                  Method
+hi   link     TSField                   LocalVariable
+hi   link     TSProperty                Structure
+hi   link     TSConstructor             GlobalVariable
+hi   link     TSConditional             Operator
+hi   link     TSRepeat                  Statement
+hi   link     TSLabel                   Structure
+hi   link     TSKeyword                 Keyword
+hi   link     TSKeywordFunction         Function
+hi   link     TSKeywordOperator         Statement
+hi   link     TSOperator                Operator
+hi   link     TSException               Error
+hi   link     TSType                    Type
+hi   link     TSTitle                   Normal
+hi   link     TSTypeBuiltin             Type
+hi   link     TSStructure               Structure
+hi   link     TSInclude                 PreProc
+hi   link     TSTag                     TypeName
+hi   link     TSVariableBuiltin         Special
+hi   link     TSTagDelimiter            Statement
+hi   link     TSVariable                Identifier
+hi   link     TSURI                     PreProc
+"hi   TSVariable guifg=#d7d7ff ctermfg=189 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi   TSText guifg=#fff000 ctermfg=226 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi   TSStrong guifg=#ffff00 ctermfg=226 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi   TSEmphasis guifg=#ffff00 ctermfg=226 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi   TSUnderline guifg=#ffff00 ctermfg=226 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi   TSLiteral guifg=#ffff00 ctermfg=226 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
 " Modifications
 hi   link     Boolean               Constant
@@ -178,16 +256,7 @@ hi   link     SpecialComment        Special
 hi   link     Debug                 Special
 hi   link     CursorIM              Cursor
 hi   link     VisualNOS             Visual
-
-"    NERDTree 
-hi   link     NERDTreeOpenable      Number
-hi   link     NERDTreeClosable      Number
-hi   link     NERDTreeFile          Number
-hi   link     NERDTreeCWD           Special
-hi   link     NERDTreeExecFile      Number
-" hi   link     NERDTreeFlags         StructDef
-" hi   link     nerdtreeFileExtensionIcon_js   Keyword
-" hi   link     nerdtreeFileExtensionIcon_css  Class
+hi   link     Quote                 Special
 "    Errors / Linting
 hi   link     ALEError              Error
 hi   link     ALEWarning            WarningMsg
@@ -197,6 +266,8 @@ hi   link     ALEErrorSign          ErrorMsg
 hi   link     ALEWarningSign        WarningMsg
 hi   link     ALEInfoSign           Class
 "    CSS
+hi   link     cssCustomProp         Identifier
+hi   link     cssImportant          Statement
 hi   link     cssBraces             Special
 hi   link     cssAttr               Function2
 hi   link     cssColor              TypeDef
@@ -206,6 +277,8 @@ hi   link     cssClassName          Method
 hi   link     cssClassNameDot       Special
 hi   link     cssTagName            ECLMTag
 hi   link     cssVendor             Constant
+hi   link     cssDefinition         Identifier
+hi   link     cssPseudoClass        Constant
 " SASS
 hi   link     scssSelectorName      Method
 hi   link     scssParameterList     Constant
@@ -271,6 +344,9 @@ hi   link     rubyBangPredicateMethod       Function2
 hi   link     rubyInstanceVariable          Member
 hi   link     rubyKeyword                   PreProc
 hi   link     rubyHelper                    PreProc
+hi   link     rubyException                 Function
+" hi   link     rubyConditional               GlobalConstant
+" hi   link     rubyCtlKeyword                GlobalConstant
 " hi   link     rubyAccess                    Statement
 hi   link     rubyResponse                  PreProc 
 hi   link     rubyRegexpCharClass           PreProc
@@ -331,10 +407,11 @@ hi   link     xmlAttrib             Identifier
 "hi  link     htmlPreStmt           Special
 hi   link     htmlTag               StructDef
 hi   link     htmlArg               Identifier
-hi   link     htmlLink              Type
+hi   link     htmlLink              Interface
 hi   link     htmlTagName           TypeName
 hi   link     htmlItalic            ECLMitalic
 hi   link     htmlEndTag            htmlTag
+hi   link     htmlBold              Type
 hi   link     phpDelim              PreProc
 " diff
 hi   link     diffAdded             DiffAdd
@@ -345,6 +422,15 @@ hi   link     diffIndexLine         Special
 hi   link     gitcommitSummary      Identifier
 " ignoring comment errors in json 
 hi  link     jsonCommentError       Comment
+hi  link     jsonKeywordMatch       TypeName
+hi  link     jsonString             Identifier
+" yaml
+hi  link     yamlBlockMappingKey    TypeName
+hi  link     yamlPlainScalar        Identifier
+"    Special  for                   Vista
+hi  link     VistaTag               Statement
+hi  link     VistaScopeKind         Identifier
+hi  link     FZFVista               GlobalVariable
 "    Special  for                   Javascript
 hi  link     javaScriptWebAPI       Function
 hi  link     javascriptRCompMethods Function
@@ -371,19 +457,21 @@ hi  link     javaScriptPrototype    Constant
 hi  link     javascriptReact        PreProc
 hi  link     javascriptBraces       Operator
 hi  link     jsClassDefinition      Class
-hi  link     jsOperatorKeyword      Statement
+hi  link     jsOperatorKeyword      Keyword
 hi  link     jsImport               Keyword
 hi  link     jsFrom                 Keyword
+hi  link     jsPrototype            Type
 hi  link     jsExport               Keyword
 hi  link     jsExportDefault        Statement
 hi  link     jsArrowFunction        Special
 hi  link     jsClassProperty        Function2
 hi  link     jsClassFuncName        Function2
-hi  link     jsVariableDef          Identifier
+hi  link     jsVariableDef          ECLMTag
 hi  link     javascriptDomElemAttrs Identifier
-hi  link     jsFlowObjectKey        TypeRef
+hi  link     jsFlowObjectKey        Type
 hi  link     jsObjectKey            TypeRef
-hi  link     jsParenSwitch          Constant
+hi  link     jsParenSwitch          Identifier
+hi  link     jsParenCatch           Identifier
 hi  link     jsFunctionKey          Function2
 hi  link     jsFuncArgs             Special
 hi  link     jsFunction             Constant 
@@ -395,10 +483,13 @@ hi  link     jsDecorator            Function2
 hi  link     jsDestructuringBlock   Identifier2
 hi  link     jsDestructuringProperty Identifier
 hi  link     jsDestructuringPropertyValue Identifier
-hi  link     jsObjectProp           Method
+"hi  link     jsObjectProp           Structure
+hi  link     jsObjectProp           Structure
+hi  link     jsGlobalObjects        PreProc
 hi  link     jsObjectShorthandProp  Enumerator
 hi  link     javaScriptTemplateVar  FuncType
 hi  link     jsTemplateExpression   Identifier
+hi  link     jsTryCatchBlock        Identifier
 hi  link     jsTemplateBraces       Operator
 hi  link     styledDefinition       FuncType
 hi  link     styledPrefix           PreProc
@@ -408,7 +499,7 @@ hi  link     Noise                  Operator
 hi  link     jsModuleBraces         GlobalVariable
 hi  link     jsxTagName             TypeName
 " hi  link     jsxEqual               htmlTag
-hi  link     jsxAttrib              Identifier2
+hi  link     jsxAttrib              Identifier
 " hi  link     jsxTag                 Union
 " hi  link     jsxEndTag              Union
 hi  link     jsxEndString           TypeName
@@ -419,6 +510,7 @@ hi  link     jsParen                Identifier
 hi  link     jsBracket              Identifier
 hi  link     jsParenRepeat          Identifier
 hi  link     jsParenIfElse          Identifier
+hi  link     jsFutureKeys           Identifier
 hi  link     jsParens               Special
 "hi  link     jsParenIfElse          Identifier
 hi  link     jsParensIfElse         Special
@@ -431,21 +523,70 @@ hi  link     jsBlock                Identifier
 hi  link     jsSpreadExpression     Method
 hi  link     jsModuleKeyword        GlobalVariable
 hi  link     jsBuiltins             PreProc
-hi  link     jsStorageClass         TypeName
-hi  link     jsThis                 Type
+hi  link     jsStorageClass         Statement
+hi  link     jsThis                 Keyword
 hi  link     jsSuper                Keyword
 hi  link     jsIfElseBraces         Special
 hi  link     jsIfElseBlock          Identifier
-hi  link     typescriptReact        Type
+hi  link     jsRepeatBlock          Identifier
+hi  link     jsSwitchBlock          Identifier
+" jenkins
+hi  link     groovyBraces           Special
+hi  link     groovyJDKBuiltin       Keyword
+hi  link     groovyClass            Class
+hi  link     groovyELExpr           PreProc
+hi  link     groovyStaticFinal      Constant
+
+hi  link     lispSymbol             Method
+hi  link     lispAtom               PreProc
+hi  link     lispAtomList           Identifier
+hi  link     typescriptIdentifier   Constant
 hi  link     typescriptGlobal       GlobalConstant
+hi  link     typescriptReact        Type
+hi  link     typescriptReserved     Keyword
+hi  link     typescriptStatement    Keyword
+hi  link     typescriptBraces       Operator
+hi  link     typescriptParens       Operator
 hi  link     typescriptQUtilities   Function
 hi  link     typescriptQDeferred    PreProc
+hi  link     typescriptMemberVariableDeclaration    TypeRef
+hi  link     tsModuleKeyword        GlobalVariable
+hi  link     tsModuleBraces         GlobalVariable
+hi  link     typescriptClassHeritage        Class
+hi  link     tsKeywordAsMethod      Method
+hi  link     xmlTs                  LocalVariable
+hi  link     tsxRegion              LocalVariable
+
+hi  link     tsxTagName             TypeName
+hi  link     tsxComponentName       GlobalVariable
+hi  link     tsxCloseComponentName  GlobalVariable
+" o link     range
+hi  link     tsxCloseString         String
+hi  link     tsxCloseTag            Statement
+hi  link     tsxCloseTagName        TypeName
+hi  link     tsxAttributeBraces     Special
+hi  link     tsxEqual               Operator
+" y link     ellow
+hi  link     tsxAttrib              Identifier
+" l link     ight-grey
+hi  link     tsxTypeBraces          Special
+" d link     ark-grey
+hi  link     tsxTypes               Type
+hi  link     ReactState             Function2
+hi  link     ReactProps             DefinedName
+hi  link     ApolloGraphQL          Constant
+hi  link     Events                 Constant
+hi  link     ReduxKeywords          PreProc
+hi  link     ReduxHooksKeywords     TypeRef
+hi  link     WebBrowser             PreProc
+hi  link     ReactLifeCycleMethods  Method
 " hi  link     jsKeywordAsMethod      Type
 hi  link     ejsTag                 PreProc
 " hi  link     jsxRegion              Type
 hi  link     jsxBraces              Operator
 hi  link     jsxIfOperator          Operator
-
+hi  link     xmlEqual               StructDef
+hi  link     xmlAttrib              Identifier2
 "    Special  for                   Python
 hi   link     pythonEscape          Keyword
 hi   link     pythonFunction        Function
@@ -457,24 +598,70 @@ hi   link     pythonFunctionTag     Function2
 hi   link     pythonMethodTag       Structure
 hi   link     pythonClassTag        Class
 hi   link     pythonBuiltinFunc     Method
+" semshi python
+hi   link     semshiLocal           LocalVariable
+hi   link     semshiGlobal          GlobalVariable
+hi   link     semshiImported        PreProc
+hi   link     semshiParameter       Special
+hi   link     semshiParameterUnused Number
+hi   link     semshiFree            Identifier
+hi   link     semshiBuiltin         Function
+hi   link     semshiAttribute       TypeName
+hi   link     semshiSelf            Type
+hi   link     semshiUnresolved      Function2
+hi   link     semshiSelected        Comment
+hi   link     semshiErrorSign       ErrorSign
+hi   link     semshiErrorChar       ErrorVirtual
 "    Special  for                   CSharp
 hi   link     csXmlTag              Keyword
 hi   link     luaFuncKeyword        Statement
+" csharp
+hi   link     csInParen             Special
 " CoC 
-hi   link     CocPumFloating        PmenuSide
-hi   link     CocPumFloatingDetail  PmenuSide
-hi   link     CocFloating           Pmenu
-hi   link     CocCodeLens           InfoVirtual
-hi   link     CocErrorSign          ErrorSign
-hi   link     CocErrorVirtualText   ErrorVirtual
-hi   link     CocWarningSign        WarningSign
-hi   link     CocWarningVirtualText WarningVirtual
-hi   link     CocInfoSign           InfoSign
-hi   link     CocInfoVirtualText    InfoVirtual
-hi   link     CocHintSign           Identifier
-hi   link     CocHintFloat          Identifier
-hi   link     CocHighlightText      ColorColumn
+hi   link     CocPumFloating            PmenuSide
+hi   link     CocPumFloatingDetail      PmenuSide
+hi   link     CocFloating               Pmenu
+hi   link     CocCodeLens               InfoVirtual
+hi   link     CocErrorSign              ErrorSign
+hi   link     CocErrorVirtualText       ErrorVirtual
+hi   link     CocWarningSign            WarningSign
+hi   link     CocWarningVirtualText     WarningVirtual
+hi   link     CocInfoSign               InfoSign
+hi   link     CocInfoVirtualText        InfoVirtual
+hi   link     CocHintSign               HintSign
+hi   link     CocHintFloat              Identifier
+hi   link     CocHintVirtualText        InfoVirtual
+hi   link     CocHighlightText          ColorColumn
+hi   link     CocExplorerFileFilename   Filename
+hi   link     CocExplorerGitContentChange   GlobalConstant
+hi   link     CocExplorerGitPathChange      TypeName
+hi   link     CocExplorerGitAdded           Interface
+hi   link     CocExplorerGitUntracked       Interface2
+hi   link     CocExplorerGitUnmerged        Interface3
+hi   link     CocExplorerGitIgnored         Comment
+hi   link     CocExplorerFileDiagnosticWarning         FuncType
+hi   link     CocExplorerFileFilenameDiagnosticWarning         FuncType
+hi   link     CocExplorerFileDiagnosticError          Error
+hi   link     CocExplorerFileFilenameDiagnosticError         Error
+"hi   link     CocExplorerBufferRoot         DefinedName
+" markdown
+hi   link     markdownCode          String
+hi   link     markdownItalic        Special2
+hi   link     markdownLinkTextDelimiter   EnumerationName
+hi   link     markdownLinkText      Method
+hi   link     markdownLinkDelimiter GlobalConstant
+hi   link     markdownUrl           Keyword
+hi   link     htmlTagN              TypeName
 " shell
+hi   link     shSet                 Function
+hi   link     shStatement           Special
+hi   link     shLoop                Keyword
+" vim
+hi   link     vimFunction           Function
+hi   link     vimUserFunc           Method
+" log
+hi   link     logTime               Comment
+hi   link     logXmlTag             TypeName
 " hi   def link     shDeref             Union
 " hi   def link     shDerefVar          Union
 " CtrlP
